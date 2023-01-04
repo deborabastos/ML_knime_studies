@@ -318,9 +318,9 @@
             },
             {
                 "id": "org.knime.base.node.mine.regression.predict3.RegressionPredictorNodeFactory2#Regression Predictor",
-                "nrexecs": 3,
+                "nrexecs": 4,
                 "nrfails": 0,
-                "exectime": 680,
+                "exectime": 753,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory#Numeric Scorer"
             },
@@ -334,9 +334,9 @@
             },
             {
                 "id": "org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory#Numeric Scorer",
-                "nrexecs": 4,
+                "nrexecs": 5,
                 "nrfails": 0,
-                "exectime": 55,
+                "exectime": 67,
                 "nrcreated": 1,
                 "successor": "n/a"
             }
@@ -346,7 +346,7 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 38726001,
+    "uptime": 39672642,
     "workflowsOpened": 9,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
@@ -355,7 +355,7 @@
     "webUIPerspectiveSwitches": 0,
     "launches": 2,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 77452003,
+    "timeSinceLastStart": 79345285,
     "crashes": 0,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }
