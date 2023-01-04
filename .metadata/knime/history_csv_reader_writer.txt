@@ -1,0 +1,1 @@
+/Users/deborabastos/Documents/6.Bootcamp AD/Módulo3/code/Example Workflows/TheData/Basics/adult.csv

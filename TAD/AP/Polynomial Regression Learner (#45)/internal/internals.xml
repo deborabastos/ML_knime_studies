@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
+    <config key="betas">
+        <entry key="array-size" type="xint" value="11"/>
+        <entry key="0" type="xdouble" value="58.384812752103684"/>
+        <entry key="1" type="xdouble" value="-1.1678614362388186E-5"/>
+        <entry key="2" type="xdouble" value="3.5640244671811675E-12"/>
+        <entry key="3" type="xdouble" value="-3.63730659634662"/>
+        <entry key="4" type="xdouble" value="0.18934254478765836"/>
+        <entry key="5" type="xdouble" value="5.081166958932838"/>
+        <entry key="6" type="xdouble" value="0.0"/>
+        <entry key="7" type="xdouble" value="2.747027452627951"/>
+        <entry key="8" type="xdouble" value="0.0"/>
+        <entry key="9" type="xdouble" value="-0.26922944252351005"/>
+        <entry key="10" type="xdouble" value="0.005139575699748518"/>
+    </config>
+    <config key="columnNames">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xstring" value="fnlwgt"/>
+        <entry key="1" type="xstring" value="education-num"/>
+        <entry key="2" type="xstring" value="capital-gain"/>
+        <entry key="3" type="xstring" value="capital-loss"/>
+        <entry key="4" type="xstring" value="hours-per-week"/>
+    </config>
+    <entry key="squaredError" type="xdouble" value="0.050856473520558776"/>
+    <entry key="adjustedSquaredError" type="xdouble" value="0.05056486676869287"/>
+    <config key="meanValues">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xdouble" value="190280.45673372204"/>
+        <entry key="1" type="xdouble" value="10.08898955773951"/>
+        <entry key="2" type="xdouble" value="0.08188728501228504"/>
+        <entry key="3" type="xdouble" value="0.046683046683046854"/>
+        <entry key="4" type="xdouble" value="39.32488098894352"/>
+    </config>
+    <config key="stdErrors">
+        <entry key="array-size" type="xint" value="11"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="NaN"/>
+        <entry key="3" type="xdouble" value="NaN"/>
+        <entry key="4" type="xdouble" value="NaN"/>
+        <entry key="5" type="xdouble" value="NaN"/>
+        <entry key="6" type="xdouble" value="NaN"/>
+        <entry key="7" type="xdouble" value="NaN"/>
+        <entry key="8" type="xdouble" value="NaN"/>
+        <entry key="9" type="xdouble" value="5.555305074947558E-4"/>
+        <entry key="10" type="xdouble" value="NaN"/>
+    </config>
+    <config key="tValues">
+        <entry key="array-size" type="xint" value="11"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="NaN"/>
+        <entry key="3" type="xdouble" value="NaN"/>
+        <entry key="4" type="xdouble" value="NaN"/>
+        <entry key="5" type="xdouble" value="NaN"/>
+        <entry key="6" type="xdouble" value="NaN"/>
+        <entry key="7" type="xdouble" value="NaN"/>
+        <entry key="8" type="xdouble" value="NaN"/>
+        <entry key="9" type="xdouble" value="9.251653384304976"/>
+        <entry key="10" type="xdouble" value="NaN"/>
+    </config>
+    <config key="pValues">
+        <entry key="array-size" type="xint" value="11"/>
+        <entry key="0" type="xdouble" value="NaN"/>
+        <entry key="1" type="xdouble" value="NaN"/>
+        <entry key="2" type="xdouble" value="NaN"/>
+        <entry key="3" type="xdouble" value="NaN"/>
+        <entry key="4" type="xdouble" value="NaN"/>
+        <entry key="5" type="xdouble" value="NaN"/>
+        <entry key="6" type="xdouble" value="NaN"/>
+        <entry key="7" type="xdouble" value="NaN"/>
+        <entry key="8" type="xdouble" value="NaN"/>
+        <entry key="9" type="xdouble" value="0.0"/>
+        <entry key="10" type="xdouble" value="NaN"/>
+    </config>
+</config>

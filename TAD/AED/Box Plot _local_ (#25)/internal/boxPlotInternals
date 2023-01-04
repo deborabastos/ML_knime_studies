@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="boxPlotInternals">
+    <entry key="numberOf" type="xint" value="6"/>
+    <config key="colSpec0">
+        <entry key="column_name" type="xstring" value="age"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="17"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="90"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec1">
+        <entry key="column_name" type="xstring" value="fnlwgt"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="12285"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="1484705"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec2">
+        <entry key="column_name" type="xstring" value="education-num"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="1"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="16"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec3">
+        <entry key="column_name" type="xstring" value="capital-gain"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="0"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="99999"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec4">
+        <entry key="column_name" type="xstring" value="capital-loss"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="0"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="4356"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec5">
+        <entry key="column_name" type="xstring" value="hours-per-week"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="1"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="99"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="statsage">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="17.0"/>
+        <entry key="1" type="xdouble" value="17.0"/>
+        <entry key="2" type="xdouble" value="28.0"/>
+        <entry key="3" type="xdouble" value="37.0"/>
+        <entry key="4" type="xdouble" value="47.0"/>
+        <entry key="5" type="xdouble" value="75.0"/>
+        <entry key="6" type="xdouble" value="78.0"/>
+    </config>
+    <config key="mildrowage">
+        <config key="mildrowage0">
+            <entry key="array-size" type="xint" value="14"/>
+            <entry key="0" type="xstring" value="Row17314"/>
+            <entry key="1" type="xstring" value="Row17314_1"/>
+            <entry key="2" type="xstring" value="Row17314_0"/>
+            <entry key="3" type="xstring" value="Row10787"/>
+            <entry key="4" type="xstring" value="Row27062_0"/>
+            <entry key="5" type="xstring" value="Row27062"/>
+            <entry key="6" type="xstring" value="Row100"/>
+            <entry key="7" type="xstring" value="Row10787_0"/>
+            <entry key="8" type="xstring" value="Row4196_0"/>
+            <entry key="9" type="xstring" value="Row3297"/>
+            <entry key="10" type="xstring" value="Row4196"/>
+            <entry key="11" type="xstring" value="Row19085"/>
+            <entry key="12" type="xstring" value="Row4196_1"/>
+            <entry key="13" type="xstring" value="Row4196_2"/>
+        </config>
+        <config key="mildrowage1">
+            <entry key="array-size" type="xint" value="12"/>
+            <entry key="0" type="xstring" value="Row4613"/>
+            <entry key="1" type="xstring" value="Row4613_0"/>
+            <entry key="2" type="xstring" value="Row23868"/>
+            <entry key="3" type="xstring" value="Row6300_0"/>
+            <entry key="4" type="xstring" value="Row6300"/>
+            <entry key="5" type="xstring" value="Row8536"/>
+            <entry key="6" type="xstring" value="Row13210"/>
+            <entry key="7" type="xstring" value="Row5294_2"/>
+            <entry key="8" type="xstring" value="Row5294_1"/>
+            <entry key="9" type="xstring" value="Row5294"/>
+            <entry key="10" type="xstring" value="Row5294_0"/>
+            <entry key="11" type="xstring" value="Row316"/>
+        </config>
+        <config key="mildrowage2">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row17027"/>
+            <entry key="1" type="xstring" value="Row9735"/>
+            <entry key="2" type="xstring" value="Row9735_0"/>
+        </config>
+    </config>
+    <config key="mildage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xdouble" value="76.0"/>
+        <entry key="1" type="xdouble" value="77.0"/>
+        <entry key="2" type="xdouble" value="78.0"/>
+    </config>
+    <config key="extremerowage"/>
+    <config key="extremeage">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statsfnlwgt">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="14878.0"/>
+        <entry key="1" type="xdouble" value="14878.0"/>
+        <entry key="2" type="xdouble" value="117363.0"/>
+        <entry key="3" type="xdouble" value="176711.0"/>
+        <entry key="4" type="xdouble" value="229051.0"/>
+        <entry key="5" type="xdouble" value="396482.0"/>
+        <entry key="6" type="xdouble" value="415847.0"/>
+    </config>
+    <config key="mildrowfnlwgt">
+        <config key="mildrowfnlwgt0">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row31697"/>
+        </config>
+        <config key="mildrowfnlwgt1">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row21098"/>
+        </config>
+        <config key="mildrowfnlwgt2">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row21325"/>
+        </config>
+        <config key="mildrowfnlwgt3">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row30717"/>
+        </config>
+        <config key="mildrowfnlwgt4">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row4548"/>
+        </config>
+        <config key="mildrowfnlwgt5">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row22186"/>
+        </config>
+        <config key="mildrowfnlwgt6">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row20888"/>
+        </config>
+        <config key="mildrowfnlwgt7">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row29186"/>
+        </config>
+        <config key="mildrowfnlwgt8">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row4831_0"/>
+            <entry key="1" type="xstring" value="Row4831"/>
+        </config>
+        <config key="mildrowfnlwgt9">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row14823"/>
+            <entry key="1" type="xstring" value="Row14823_0"/>
+            <entry key="2" type="xstring" value="Row14823_1"/>
+        </config>
+        <config key="mildrowfnlwgt10">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row11612"/>
+        </config>
+        <config key="mildrowfnlwgt11">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row24608_0"/>
+            <entry key="1" type="xstring" value="Row24608"/>
+        </config>
+        <config key="mildrowfnlwgt12">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row4649_0"/>
+            <entry key="1" type="xstring" value="Row4649"/>
+        </config>
+        <config key="mildrowfnlwgt13">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row7304"/>
+            <entry key="1" type="xstring" value="Row7304_0"/>
+            <entry key="2" type="xstring" value="Row7304_2"/>
+            <entry key="3" type="xstring" value="Row7304_1"/>
+        </config>
+        <config key="mildrowfnlwgt14">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row22886"/>
+            <entry key="1" type="xstring" value="Row22886_1"/>
+            <entry key="2" type="xstring" value="Row22886_0"/>
+            <entry key="3" type="xstring" value="Row13073"/>
+        </config>
+        <config key="mildrowfnlwgt15">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row14853"/>
+        </config>
+        <config key="mildrowfnlwgt16">
+            <entry key="array-size" type="xint" value="9"/>
+            <entry key="0" type="xstring" value="Row23882_0"/>
+            <entry key="1" type="xstring" value="Row28967"/>
+            <entry key="2" type="xstring" value="Row23882_1"/>
+            <entry key="3" type="xstring" value="Row17910"/>
+            <entry key="4" type="xstring" value="Row23882"/>
+            <entry key="5" type="xstring" value="Row28967_0"/>
+            <entry key="6" type="xstring" value="Row17910_0"/>
+            <entry key="7" type="xstring" value="Row17910_1"/>
+            <entry key="8" type="xstring" value="Row17910_2"/>
+        </config>
+        <config key="mildrowfnlwgt17">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row19619"/>
+            <entry key="1" type="xstring" value="Row19619_0"/>
+        </config>
+        <config key="mildrowfnlwgt18">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row15557"/>
+            <entry key="1" type="xstring" value="Row15557_0"/>
+        </config>
+        <config key="mildrowfnlwgt19">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row22747"/>
+            <entry key="1" type="xstring" value="Row1879"/>
+        </config>
+        <config key="mildrowfnlwgt20">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row12863"/>
+        </config>
+        <config key="mildrowfnlwgt21">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row4402"/>
+        </config>
+        <config key="mildrowfnlwgt22">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row17044"/>
+            <entry key="1" type="xstring" value="Row17044_0"/>
+        </config>
+        <config key="mildrowfnlwgt23">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row21771"/>
+            <entry key="1" type="xstring" value="Row21771_0"/>
+        </config>
+        <config key="mildrowfnlwgt24">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row24493"/>
+        </config>
+        <config key="mildrowfnlwgt25">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row28631_1"/>
+            <entry key="1" type="xstring" value="Row28631_0"/>
+            <entry key="2" type="xstring" value="Row28631"/>
+        </config>
+        <config key="mildrowfnlwgt26">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row26876_0"/>
+            <entry key="1" type="xstring" value="Row26876"/>
+        </config>
+        <config key="mildrowfnlwgt27">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row9213"/>
+            <entry key="1" type="xstring" value="Row9213_0"/>
+        </config>
+        <config key="mildrowfnlwgt28">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row10110"/>
+        </config>
+        <config key="mildrowfnlwgt29">
+            <entry key="array-size" type="xint" value="5"/>
+            <entry key="0" type="xstring" value="Row14404_2"/>
+            <entry key="1" type="xstring" value="Row14404_3"/>
+            <entry key="2" type="xstring" value="Row14404_0"/>
+            <entry key="3" type="xstring" value="Row14404_1"/>
+            <entry key="4" type="xstring" value="Row14404"/>
+        </config>
+        <config key="mildrowfnlwgt30">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row17851"/>
+        </config>
+        <config key="mildrowfnlwgt31">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row15092"/>
+        </config>
+        <config key="mildrowfnlwgt32">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row7023"/>
+            <entry key="1" type="xstring" value="Row7023_1"/>
+            <entry key="2" type="xstring" value="Row7023_2"/>
+            <entry key="3" type="xstring" value="Row7023_0"/>
+        </config>
+        <config key="mildrowfnlwgt33">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row14960"/>
+            <entry key="1" type="xstring" value="Row14960_0"/>
+        </config>
+        <config key="mildrowfnlwgt34">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row4010"/>
+            <entry key="1" type="xstring" value="Row4010_0"/>
+        </config>
+        <config key="mildrowfnlwgt35">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row6247"/>
+            <entry key="1" type="xstring" value="Row6247_0"/>
+        </config>
+        <config key="mildrowfnlwgt36">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row4654"/>
+            <entry key="1" type="xstring" value="Row4654_0"/>
+        </config>
+        <config key="mildrowfnlwgt37">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row29095"/>
+            <entry key="1" type="xstring" value="Row29095_0"/>
+        </config>
+        <config key="mildrowfnlwgt38">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row10078"/>
+            <entry key="1" type="xstring" value="Row10078_1"/>
+            <entry key="2" type="xstring" value="Row10078_0"/>
+        </config>
+        <config key="mildrowfnlwgt39">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row16489"/>
+            <entry key="1" type="xstring" value="Row16489_0"/>
+        </config>
+        <config key="mildrowfnlwgt40">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row30035"/>
+            <entry key="1" type="xstring" value="Row30035_1"/>
+            <entry key="2" type="xstring" value="Row30035_0"/>
+            <entry key="3" type="xstring" value="Row30035_2"/>
+        </config>
+        <config key="mildrowfnlwgt41">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row6212"/>
+        </config>
+        <config key="mildrowfnlwgt42">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row9286"/>
+        </config>
+        <config key="mildrowfnlwgt43">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row2831"/>
+        </config>
+        <config key="mildrowfnlwgt44">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row646"/>
+        </config>
+        <config key="mildrowfnlwgt45">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row28418"/>
+            <entry key="1" type="xstring" value="Row9524"/>
+        </config>
+        <config key="mildrowfnlwgt46">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row12496"/>
+            <entry key="1" type="xstring" value="Row12496_0"/>
+        </config>
+        <config key="mildrowfnlwgt47">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row1490"/>
+            <entry key="1" type="xstring" value="Row1490_0"/>
+        </config>
+        <config key="mildrowfnlwgt48">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row17014_0"/>
+            <entry key="1" type="xstring" value="Row17014"/>
+        </config>
+        <config key="mildrowfnlwgt49">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row23561_0"/>
+            <entry key="1" type="xstring" value="Row23561"/>
+        </config>
+        <config key="mildrowfnlwgt50">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row24191"/>
+            <entry key="1" type="xstring" value="Row24191_0"/>
+            <entry key="2" type="xstring" value="Row24191_1"/>
+        </config>
+        <config key="mildrowfnlwgt51">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row17785"/>
+            <entry key="1" type="xstring" value="Row17785_0"/>
+        </config>
+        <config key="mildrowfnlwgt52">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row25477_0"/>
+            <entry key="1" type="xstring" value="Row25477"/>
+        </config>
+        <config key="mildrowfnlwgt53">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row3268"/>
+            <entry key="1" type="xstring" value="Row3268_0"/>
+        </config>
+        <config key="mildrowfnlwgt54">
+            <entry key="array-size" type="xint" value="5"/>
+            <entry key="0" type="xstring" value="Row24437"/>
+            <entry key="1" type="xstring" value="Row28401"/>
+            <entry key="2" type="xstring" value="Row24437_0"/>
+            <entry key="3" type="xstring" value="Row28401_0"/>
+            <entry key="4" type="xstring" value="Row28401_1"/>
+        </config>
+        <config key="mildrowfnlwgt55">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row13605"/>
+            <entry key="1" type="xstring" value="Row11409"/>
+        </config>
+        <config key="mildrowfnlwgt56">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row22149"/>
+        </config>
+        <config key="mildrowfnlwgt57">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row7996"/>
+            <entry key="1" type="xstring" value="Row7996_0"/>
+        </config>
+        <config key="mildrowfnlwgt58">
+            <entry key="array-size" type="xint" value="8"/>
+            <entry key="0" type="xstring" value="Row16001"/>
+            <entry key="1" type="xstring" value="Row16001_0"/>
+            <entry key="2" type="xstring" value="Row4560_1"/>
+            <entry key="3" type="xstring" value="Row4560_0"/>
+            <entry key="4" type="xstring" value="Row4560"/>
+            <entry key="5" type="xstring" value="Row30437"/>
+            <entry key="6" type="xstring" value="Row4560_2"/>
+            <entry key="7" type="xstring" value="Row30437_0"/>
+        </config>
+        <config key="mildrowfnlwgt59">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row26527"/>
+        </config>
+        <config key="mildrowfnlwgt60">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row32499"/>
+            <entry key="1" type="xstring" value="Row1370"/>
+            <entry key="2" type="xstring" value="Row32499_0"/>
+            <entry key="3" type="xstring" value="Row1370_0"/>
+        </config>
+        <config key="mildrowfnlwgt61">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row31018"/>
+        </config>
+        <config key="mildrowfnlwgt62">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row22806"/>
+        </config>
+        <config key="mildrowfnlwgt63">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row14465"/>
+        </config>
+        <config key="mildrowfnlwgt64">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row20270"/>
+        </config>
+        <config key="mildrowfnlwgt65">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row24287"/>
+        </config>
+        <config key="mildrowfnlwgt66">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row19715"/>
+        </config>
+        <config key="mildrowfnlwgt67">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row4011"/>
+            <entry key="1" type="xstring" value="Row14719"/>
+        </config>
+        <config key="mildrowfnlwgt68">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row4041"/>
+        </config>
+        <config key="mildrowfnlwgt69">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row22738"/>
+        </config>
+        <config key="mildrowfnlwgt70">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row20637"/>
+        </config>
+        <config key="mildrowfnlwgt71">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row22625"/>
+        </config>
+        <config key="mildrowfnlwgt72">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row21635"/>
+        </config>
+        <config key="mildrowfnlwgt73">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row30780"/>
+        </config>
+        <config key="mildrowfnlwgt74">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row7267"/>
+        </config>
+        <config key="mildrowfnlwgt75">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row18579_0"/>
+            <entry key="1" type="xstring" value="Row18579"/>
+        </config>
+        <config key="mildrowfnlwgt76">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row31523"/>
+            <entry key="1" type="xstring" value="Row31523_0"/>
+            <entry key="2" type="xstring" value="Row21165"/>
+            <entry key="3" type="xstring" value="Row31523_1"/>
+        </config>
+        <config key="mildrowfnlwgt77">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row25524_0"/>
+            <entry key="1" type="xstring" value="Row25524"/>
+        </config>
+        <config key="mildrowfnlwgt78">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row20968"/>
+        </config>
+        <config key="mildrowfnlwgt79">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row11692"/>
+        </config>
+        <config key="mildrowfnlwgt80">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row18435"/>
+        </config>
+        <config key="mildrowfnlwgt81">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row11864"/>
+            <entry key="1" type="xstring" value="Row11864_0"/>
+        </config>
+        <config key="mildrowfnlwgt82">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row26234_0"/>
+            <entry key="1" type="xstring" value="Row26234"/>
+        </config>
+        <config key="mildrowfnlwgt83">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row9547"/>
+        </config>
+        <config key="mildrowfnlwgt84">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row444_0"/>
+            <entry key="1" type="xstring" value="Row444_1"/>
+            <entry key="2" type="xstring" value="Row444"/>
+        </config>
+        <config key="mildrowfnlwgt85">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row28895"/>
+        </config>
+        <config key="mildrowfnlwgt86">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row22401"/>
+        </config>
+        <config key="mildrowfnlwgt87">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row888"/>
+        </config>
+        <config key="mildrowfnlwgt88">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row25157"/>
+        </config>
+        <config key="mildrowfnlwgt89">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row3242"/>
+        </config>
+        <config key="mildrowfnlwgt90">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row30288"/>
+            <entry key="1" type="xstring" value="Row25151"/>
+        </config>
+        <config key="mildrowfnlwgt91">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row27546"/>
+            <entry key="1" type="xstring" value="Row27546_0"/>
+        </config>
+        <config key="mildrowfnlwgt92">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row9367"/>
+            <entry key="1" type="xstring" value="Row9367_1"/>
+            <entry key="2" type="xstring" value="Row9367_0"/>
+        </config>
+        <config key="mildrowfnlwgt93">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row15134"/>
+            <entry key="1" type="xstring" value="Row15134_1"/>
+            <entry key="2" type="xstring" value="Row15134_0"/>
+        </config>
+        <config key="mildrowfnlwgt94">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row13614"/>
+            <entry key="1" type="xstring" value="Row13614_0"/>
+        </config>
+        <config key="mildrowfnlwgt95">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row30097"/>
+        </config>
+        <config key="mildrowfnlwgt96">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row27786_0"/>
+            <entry key="1" type="xstring" value="Row27786"/>
+        </config>
+        <config key="mildrowfnlwgt97">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row23457"/>
+            <entry key="1" type="xstring" value="Row4084"/>
+            <entry key="2" type="xstring" value="Row23457_0"/>
+        </config>
+        <config key="mildrowfnlwgt98">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row3696"/>
+        </config>
+        <config key="mildrowfnlwgt99">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row25962"/>
+            <entry key="1" type="xstring" value="Row25962_1"/>
+            <entry key="2" type="xstring" value="Row25962_0"/>
+        </config>
+        <config key="mildrowfnlwgt100">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row26658_0"/>
+            <entry key="1" type="xstring" value="Row26658"/>
+        </config>
+        <config key="mildrowfnlwgt101">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row8810"/>
+        </config>
+        <config key="mildrowfnlwgt102">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row30453"/>
+        </config>
+        <config key="mildrowfnlwgt103">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row12755"/>
+        </config>
+        <config key="mildrowfnlwgt104">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row23858_0"/>
+            <entry key="1" type="xstring" value="Row23858"/>
+        </config>
+        <config key="mildrowfnlwgt105">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row29618_0"/>
+            <entry key="1" type="xstring" value="Row29618"/>
+        </config>
+        <config key="mildrowfnlwgt106">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row2261"/>
+            <entry key="1" type="xstring" value="Row2261_0"/>
+        </config>
+        <config key="mildrowfnlwgt107">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row16553"/>
+            <entry key="1" type="xstring" value="Row16553_0"/>
+            <entry key="2" type="xstring" value="Row16553_1"/>
+        </config>
+        <config key="mildrowfnlwgt108">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row20860"/>
+            <entry key="1" type="xstring" value="Row20860_0"/>
+        </config>
+        <config key="mildrowfnlwgt109">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row15744"/>
+        </config>
+        <config key="mildrowfnlwgt110">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row18869"/>
+        </config>
+        <config key="mildrowfnlwgt111">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row3322"/>
+            <entry key="1" type="xstring" value="Row3322_0"/>
+            <entry key="2" type="xstring" value="Row20273"/>
+            <entry key="3" type="xstring" value="Row20273_0"/>
+        </config>
+        <config key="mildrowfnlwgt112">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row14954"/>
+            <entry key="1" type="xstring" value="Row14470"/>
+        </config>
+        <config key="mildrowfnlwgt113">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row11218"/>
+            <entry key="1" type="xstring" value="Row11218_0"/>
+        </config>
+        <config key="mildrowfnlwgt114">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row26345_0"/>
+            <entry key="1" type="xstring" value="Row15962"/>
+            <entry key="2" type="xstring" value="Row26345"/>
+        </config>
+        <config key="mildrowfnlwgt115">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row1269"/>
+            <entry key="1" type="xstring" value="Row1269_0"/>
+            <entry key="2" type="xstring" value="Row1269_1"/>
+        </config>
+        <config key="mildrowfnlwgt116">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row17852"/>
+            <entry key="1" type="xstring" value="Row17852_0"/>
+        </config>
+        <config key="mildrowfnlwgt117">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row2685"/>
+        </config>
+        <config key="mildrowfnlwgt118">
+            <entry key="array-size" type="xint" value="7"/>
+            <entry key="0" type="xstring" value="Row8032"/>
+            <entry key="1" type="xstring" value="Row16558_1"/>
+            <entry key="2" type="xstring" value="Row16558_0"/>
+            <entry key="3" type="xstring" value="Row2092_0"/>
+            <entry key="4" type="xstring" value="Row16558"/>
+            <entry key="5" type="xstring" value="Row2092"/>
+            <entry key="6" type="xstring" value="Row8032_0"/>
+        </config>
+        <config key="mildrowfnlwgt119">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row606"/>
+            <entry key="1" type="xstring" value="Row15532"/>
+        </config>
+        <config key="mildrowfnlwgt120">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row20371"/>
+        </config>
+        <config key="mildrowfnlwgt121">
+            <entry key="array-size" type="xint" value="6"/>
+            <entry key="0" type="xstring" value="Row6899"/>
+            <entry key="1" type="xstring" value="Row6899_0"/>
+            <entry key="2" type="xstring" value="Row6899_1"/>
+            <entry key="3" type="xstring" value="Row29380_0"/>
+            <entry key="4" type="xstring" value="Row29380"/>
+            <entry key="5" type="xstring" value="Row29380_1"/>
+        </config>
+        <config key="mildrowfnlwgt122">
+            <entry key="array-size" type="xint" value="6"/>
+            <entry key="0" type="xstring" value="Row2091_0"/>
+            <entry key="1" type="xstring" value="Row16115"/>
+            <entry key="2" type="xstring" value="Row10388"/>
+            <entry key="3" type="xstring" value="Row23939"/>
+            <entry key="4" type="xstring" value="Row16115_0"/>
+            <entry key="5" type="xstring" value="Row2091"/>
+        </config>
+        <config key="mildrowfnlwgt123">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row22853"/>
+            <entry key="1" type="xstring" value="Row22853_1"/>
+            <entry key="2" type="xstring" value="Row22853_0"/>
+        </config>
+        <config key="mildrowfnlwgt124">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row19478"/>
+        </config>
+        <config key="mildrowfnlwgt125">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row24677"/>
+        </config>
+        <config key="mildrowfnlwgt126">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row89"/>
+        </config>
+        <config key="mildrowfnlwgt127">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row6057"/>
+        </config>
+        <config key="mildrowfnlwgt128">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row13859_0"/>
+            <entry key="1" type="xstring" value="Row13859"/>
+        </config>
+        <config key="mildrowfnlwgt129">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row23025"/>
+        </config>
+        <config key="mildrowfnlwgt130">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row19435"/>
+            <entry key="1" type="xstring" value="Row19435_0"/>
+        </config>
+        <config key="mildrowfnlwgt131">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row9909"/>
+        </config>
+        <config key="mildrowfnlwgt132">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row21946_1"/>
+            <entry key="1" type="xstring" value="Row21946_0"/>
+            <entry key="2" type="xstring" value="Row21946"/>
+        </config>
+        <config key="mildrowfnlwgt133">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row27115"/>
+            <entry key="1" type="xstring" value="Row27115_0"/>
+        </config>
+        <config key="mildrowfnlwgt134">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row30389_1"/>
+            <entry key="1" type="xstring" value="Row30389_0"/>
+            <entry key="2" type="xstring" value="Row30389"/>
+        </config>
+        <config key="mildrowfnlwgt135">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row14993"/>
+            <entry key="1" type="xstring" value="Row877_0"/>
+            <entry key="2" type="xstring" value="Row877"/>
+        </config>
+        <config key="mildrowfnlwgt136">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row28285"/>
+            <entry key="1" type="xstring" value="Row11643"/>
+        </config>
+        <config key="mildrowfnlwgt137">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row26772"/>
+        </config>
+        <config key="mildrowfnlwgt138">
+            <entry key="array-size" type="xint" value="4"/>
+            <entry key="0" type="xstring" value="Row18912_1"/>
+            <entry key="1" type="xstring" value="Row18912_0"/>
+            <entry key="2" type="xstring" value="Row23039"/>
+            <entry key="3" type="xstring" value="Row18912"/>
+        </config>
+        <config key="mildrowfnlwgt139">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row20946"/>
+        </config>
+        <config key="mildrowfnlwgt140">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row26965"/>
+            <entry key="1" type="xstring" value="Row14043_0"/>
+            <entry key="2" type="xstring" value="Row14043"/>
+        </config>
+        <config key="mildrowfnlwgt141">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row30618_0"/>
+            <entry key="1" type="xstring" value="Row22839"/>
+            <entry key="2" type="xstring" value="Row30618"/>
+        </config>
+        <config key="mildrowfnlwgt142">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row28575"/>
+            <entry key="1" type="xstring" value="Row28575_0"/>
+        </config>
+        <config key="mildrowfnlwgt143">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row14674"/>
+        </config>
+        <config key="mildrowfnlwgt144">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row24194"/>
+            <entry key="1" type="xstring" value="Row24194_0"/>
+        </config>
+        <config key="mildrowfnlwgt145">
+            <entry key="array-size" type="xint" value="6"/>
+            <entry key="0" type="xstring" value="Row24225"/>
+            <entry key="1" type="xstring" value="Row1233_0"/>
+            <entry key="2" type="xstring" value="Row5762"/>
+            <entry key="3" type="xstring" value="Row1233"/>
+            <entry key="4" type="xstring" value="Row5762_0"/>
+            <entry key="5" type="xstring" value="Row5762_1"/>
+        </config>
+        <config key="mildrowfnlwgt146">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row15268"/>
+        </config>
+        <config key="mildrowfnlwgt147">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row14851"/>
+        </config>
+        <config key="mildrowfnlwgt148">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row25998"/>
+            <entry key="1" type="xstring" value="Row25998_0"/>
+            <entry key="2" type="xstring" value="Row25998_1"/>
+        </config>
+        <config key="mildrowfnlwgt149">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row21507_0"/>
+            <entry key="1" type="xstring" value="Row21507"/>
+        </config>
+        <config key="mildrowfnlwgt150">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row18722"/>
+        </config>
+        <config key="mildrowfnlwgt151">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row28814"/>
+            <entry key="1" type="xstring" value="Row28814_0"/>
+        </config>
+        <config key="mildrowfnlwgt152">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row5879"/>
+        </config>
+        <config key="mildrowfnlwgt153">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row4977"/>
+            <entry key="1" type="xstring" value="Row27435"/>
+            <entry key="2" type="xstring" value="Row4977_0"/>
+        </config>
+        <config key="mildrowfnlwgt154">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Row5800"/>
+            <entry key="1" type="xstring" value="Row5800_0"/>
+        </config>
+        <config key="mildrowfnlwgt155">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row23172_1"/>
+            <entry key="1" type="xstring" value="Row23172_0"/>
+            <entry key="2" type="xstring" value="Row23172"/>
+        </config>
+        <config key="mildrowfnlwgt156">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row22964"/>
+        </config>
+        <config key="mildrowfnlwgt157">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Row6200_0"/>
+            <entry key="1" type="xstring" value="Row6200_1"/>
+            <entry key="2" type="xstring" value="Row6200"/>
+        </config>
+    </config>
+    <config key="mildfnlwgt">
+        <entry key="array-size" type="xint" value="158"/>
+        <entry key="0" type="xdouble" value="396595.0"/>
+        <entry key="1" type="xdouble" value="396722.0"/>
+        <entry key="2" type="xdouble" value="397280.0"/>
+        <entry key="3" type="xdouble" value="397317.0"/>
+        <entry key="4" type="xdouble" value="397346.0"/>
+        <entry key="5" type="xdouble" value="397467.0"/>
+        <entry key="6" type="xdouble" value="397877.0"/>
+        <entry key="7" type="xdouble" value="397962.0"/>
+        <entry key="8" type="xdouble" value="398067.0"/>
+        <entry key="9" type="xdouble" value="398625.0"/>
+        <entry key="10" type="xdouble" value="398652.0"/>
+        <entry key="11" type="xdouble" value="398662.0"/>
+        <entry key="12" type="xdouble" value="398843.0"/>
+        <entry key="13" type="xdouble" value="398904.0"/>
+        <entry key="14" type="xdouble" value="398918.0"/>
+        <entry key="15" type="xdouble" value="398931.0"/>
+        <entry key="16" type="xdouble" value="398988.0"/>
+        <entry key="17" type="xdouble" value="399022.0"/>
+        <entry key="18" type="xdouble" value="399052.0"/>
+        <entry key="19" type="xdouble" value="399088.0"/>
+        <entry key="20" type="xdouble" value="399155.0"/>
+        <entry key="21" type="xdouble" value="399449.0"/>
+        <entry key="22" type="xdouble" value="399522.0"/>
+        <entry key="23" type="xdouble" value="399904.0"/>
+        <entry key="24" type="xdouble" value="400004.0"/>
+        <entry key="25" type="xdouble" value="400061.0"/>
+        <entry key="26" type="xdouble" value="400132.0"/>
+        <entry key="27" type="xdouble" value="400285.0"/>
+        <entry key="28" type="xdouble" value="400356.0"/>
+        <entry key="29" type="xdouble" value="400416.0"/>
+        <entry key="30" type="xdouble" value="400535.0"/>
+        <entry key="31" type="xdouble" value="400616.0"/>
+        <entry key="32" type="xdouble" value="400630.0"/>
+        <entry key="33" type="xdouble" value="400943.0"/>
+        <entry key="34" type="xdouble" value="400966.0"/>
+        <entry key="35" type="xdouble" value="401051.0"/>
+        <entry key="36" type="xdouble" value="401104.0"/>
+        <entry key="37" type="xdouble" value="401134.0"/>
+        <entry key="38" type="xdouble" value="401333.0"/>
+        <entry key="39" type="xdouble" value="401451.0"/>
+        <entry key="40" type="xdouble" value="401508.0"/>
+        <entry key="41" type="xdouble" value="401623.0"/>
+        <entry key="42" type="xdouble" value="401723.0"/>
+        <entry key="43" type="xdouble" value="401832.0"/>
+        <entry key="44" type="xdouble" value="402089.0"/>
+        <entry key="45" type="xdouble" value="402361.0"/>
+        <entry key="46" type="xdouble" value="402539.0"/>
+        <entry key="47" type="xdouble" value="402812.0"/>
+        <entry key="48" type="xdouble" value="402975.0"/>
+        <entry key="49" type="xdouble" value="403037.0"/>
+        <entry key="50" type="xdouble" value="403072.0"/>
+        <entry key="51" type="xdouble" value="403187.0"/>
+        <entry key="52" type="xdouble" value="403276.0"/>
+        <entry key="53" type="xdouble" value="403433.0"/>
+        <entry key="54" type="xdouble" value="403468.0"/>
+        <entry key="55" type="xdouble" value="403489.0"/>
+        <entry key="56" type="xdouble" value="403519.0"/>
+        <entry key="57" type="xdouble" value="403550.0"/>
+        <entry key="58" type="xdouble" value="403671.0"/>
+        <entry key="59" type="xdouble" value="403782.0"/>
+        <entry key="60" type="xdouble" value="403788.0"/>
+        <entry key="61" type="xdouble" value="403860.0"/>
+        <entry key="62" type="xdouble" value="403911.0"/>
+        <entry key="63" type="xdouble" value="404085.0"/>
+        <entry key="64" type="xdouble" value="404416.0"/>
+        <entry key="65" type="xdouble" value="404421.0"/>
+        <entry key="66" type="xdouble" value="404453.0"/>
+        <entry key="67" type="xdouble" value="404573.0"/>
+        <entry key="68" type="xdouble" value="404599.0"/>
+        <entry key="69" type="xdouble" value="404616.0"/>
+        <entry key="70" type="xdouble" value="404661.0"/>
+        <entry key="71" type="xdouble" value="404951.0"/>
+        <entry key="72" type="xdouble" value="404998.0"/>
+        <entry key="73" type="xdouble" value="405083.0"/>
+        <entry key="74" type="xdouble" value="405177.0"/>
+        <entry key="75" type="xdouble" value="405284.0"/>
+        <entry key="76" type="xdouble" value="405309.0"/>
+        <entry key="77" type="xdouble" value="405374.0"/>
+        <entry key="78" type="xdouble" value="405526.0"/>
+        <entry key="79" type="xdouble" value="405577.0"/>
+        <entry key="80" type="xdouble" value="405644.0"/>
+        <entry key="81" type="xdouble" value="405684.0"/>
+        <entry key="82" type="xdouble" value="405765.0"/>
+        <entry key="83" type="xdouble" value="405793.0"/>
+        <entry key="84" type="xdouble" value="405855.0"/>
+        <entry key="85" type="xdouble" value="405913.0"/>
+        <entry key="86" type="xdouble" value="406463.0"/>
+        <entry key="87" type="xdouble" value="406468.0"/>
+        <entry key="88" type="xdouble" value="406641.0"/>
+        <entry key="89" type="xdouble" value="406662.0"/>
+        <entry key="90" type="xdouble" value="406811.0"/>
+        <entry key="91" type="xdouble" value="406826.0"/>
+        <entry key="92" type="xdouble" value="406920.0"/>
+        <entry key="93" type="xdouble" value="406955.0"/>
+        <entry key="94" type="xdouble" value="406978.0"/>
+        <entry key="95" type="xdouble" value="407043.0"/>
+        <entry key="96" type="xdouble" value="407425.0"/>
+        <entry key="97" type="xdouble" value="407672.0"/>
+        <entry key="98" type="xdouble" value="407684.0"/>
+        <entry key="99" type="xdouble" value="407759.0"/>
+        <entry key="100" type="xdouble" value="407913.0"/>
+        <entry key="101" type="xdouble" value="408229.0"/>
+        <entry key="102" type="xdouble" value="408383.0"/>
+        <entry key="103" type="xdouble" value="408473.0"/>
+        <entry key="104" type="xdouble" value="408498.0"/>
+        <entry key="105" type="xdouble" value="408531.0"/>
+        <entry key="106" type="xdouble" value="408623.0"/>
+        <entry key="107" type="xdouble" value="408717.0"/>
+        <entry key="108" type="xdouble" value="408773.0"/>
+        <entry key="109" type="xdouble" value="408788.0"/>
+        <entry key="110" type="xdouble" value="408813.0"/>
+        <entry key="111" type="xdouble" value="409189.0"/>
+        <entry key="112" type="xdouble" value="409200.0"/>
+        <entry key="113" type="xdouble" value="409201.0"/>
+        <entry key="114" type="xdouble" value="409230.0"/>
+        <entry key="115" type="xdouble" value="409505.0"/>
+        <entry key="116" type="xdouble" value="409622.0"/>
+        <entry key="117" type="xdouble" value="409815.0"/>
+        <entry key="118" type="xdouble" value="410034.0"/>
+        <entry key="119" type="xdouble" value="410114.0"/>
+        <entry key="120" type="xdouble" value="410186.0"/>
+        <entry key="121" type="xdouble" value="410240.0"/>
+        <entry key="122" type="xdouble" value="410351.0"/>
+        <entry key="123" type="xdouble" value="410450.0"/>
+        <entry key="124" type="xdouble" value="410489.0"/>
+        <entry key="125" type="xdouble" value="410543.0"/>
+        <entry key="126" type="xdouble" value="410867.0"/>
+        <entry key="127" type="xdouble" value="410913.0"/>
+        <entry key="128" type="xdouble" value="410919.0"/>
+        <entry key="129" type="xdouble" value="411068.0"/>
+        <entry key="130" type="xdouble" value="411273.0"/>
+        <entry key="131" type="xdouble" value="411395.0"/>
+        <entry key="132" type="xdouble" value="411560.0"/>
+        <entry key="133" type="xdouble" value="411587.0"/>
+        <entry key="134" type="xdouble" value="411652.0"/>
+        <entry key="135" type="xdouble" value="411797.0"/>
+        <entry key="136" type="xdouble" value="411950.0"/>
+        <entry key="137" type="xdouble" value="412149.0"/>
+        <entry key="138" type="xdouble" value="412156.0"/>
+        <entry key="139" type="xdouble" value="412296.0"/>
+        <entry key="140" type="xdouble" value="412316.0"/>
+        <entry key="141" type="xdouble" value="412379.0"/>
+        <entry key="142" type="xdouble" value="412435.0"/>
+        <entry key="143" type="xdouble" value="412952.0"/>
+        <entry key="144" type="xdouble" value="413227.0"/>
+        <entry key="145" type="xdouble" value="413297.0"/>
+        <entry key="146" type="xdouble" value="413345.0"/>
+        <entry key="147" type="xdouble" value="413557.0"/>
+        <entry key="148" type="xdouble" value="413760.0"/>
+        <entry key="149" type="xdouble" value="414545.0"/>
+        <entry key="150" type="xdouble" value="414683.0"/>
+        <entry key="151" type="xdouble" value="414791.0"/>
+        <entry key="152" type="xdouble" value="414871.0"/>
+        <entry key="153" type="xdouble" value="414994.0"/>
+        <entry key="154" type="xdouble" value="415354.0"/>
+        <entry key="155" type="xdouble" value="415500.0"/>
+        <entry key="156" type="xdouble" value="415578.0"/>
+        <entry key="157" type="xdouble" value="415847.0"/>
+    </config>
+    <config key="extremerowfnlwgt"/>
+    <config key="extremefnlwgt">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statseducation-num">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="5.0"/>
+        <entry key="1" type="xdouble" value="5.0"/>
+        <entry key="2" type="xdouble" value="9.0"/>
+        <entry key="3" type="xdouble" value="10.0"/>
+        <entry key="4" type="xdouble" value="12.0"/>
+        <entry key="5" type="xdouble" value="16.0"/>
+        <entry key="6" type="xdouble" value="16.0"/>
+    </config>
+    <config key="mildroweducation-num"/>
+    <config key="mildeducation-num">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremeroweducation-num"/>
+    <config key="extremeeducation-num">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statscapital-gain">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="0.0"/>
+        <entry key="1" type="xdouble" value="0.0"/>
+        <entry key="2" type="xdouble" value="0.0"/>
+        <entry key="3" type="xdouble" value="0.0"/>
+        <entry key="4" type="xdouble" value="0.0"/>
+        <entry key="5" type="xdouble" value="0.0"/>
+        <entry key="6" type="xdouble" value="0.0"/>
+    </config>
+    <config key="mildrowcapital-gain"/>
+    <config key="mildcapital-gain">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremerowcapital-gain"/>
+    <config key="extremecapital-gain">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statscapital-loss">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="0.0"/>
+        <entry key="1" type="xdouble" value="0.0"/>
+        <entry key="2" type="xdouble" value="0.0"/>
+        <entry key="3" type="xdouble" value="0.0"/>
+        <entry key="4" type="xdouble" value="0.0"/>
+        <entry key="5" type="xdouble" value="0.0"/>
+        <entry key="6" type="xdouble" value="0.0"/>
+    </config>
+    <config key="mildrowcapital-loss"/>
+    <config key="mildcapital-loss">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremerowcapital-loss"/>
+    <config key="extremecapital-loss">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statshours-per-week">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="33.0"/>
+        <entry key="1" type="xdouble" value="40.0"/>
+        <entry key="2" type="xdouble" value="40.0"/>
+        <entry key="3" type="xdouble" value="40.0"/>
+        <entry key="4" type="xdouble" value="40.0"/>
+        <entry key="5" type="xdouble" value="40.0"/>
+        <entry key="6" type="xdouble" value="52.0"/>
+    </config>
+    <config key="mildrowhours-per-week"/>
+    <config key="mildhours-per-week">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremerowhours-per-week">
+        <config key="extremerowhours-per-week0">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row29018_0"/>
+        </config>
+        <config key="extremerowhours-per-week1">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row26686_0"/>
+        </config>
+        <config key="extremerowhours-per-week2">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32529_0"/>
+        </config>
+        <config key="extremerowhours-per-week3">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32189_0"/>
+        </config>
+        <config key="extremerowhours-per-week4">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32379_0"/>
+        </config>
+        <config key="extremerowhours-per-week5">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32556_0"/>
+        </config>
+        <config key="extremerowhours-per-week6">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row31122_0"/>
+        </config>
+        <config key="extremerowhours-per-week7">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row26851_0"/>
+        </config>
+        <config key="extremerowhours-per-week8">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32174_3"/>
+        </config>
+        <config key="extremerowhours-per-week9">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32064_1"/>
+        </config>
+        <config key="extremerowhours-per-week10">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32154_0"/>
+        </config>
+        <config key="extremerowhours-per-week11">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32552_0"/>
+        </config>
+        <config key="extremerowhours-per-week12">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32537_0"/>
+        </config>
+        <config key="extremerowhours-per-week13">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row31662_0"/>
+        </config>
+        <config key="extremerowhours-per-week14">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32543_1"/>
+        </config>
+        <config key="extremerowhours-per-week15">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row29443_1"/>
+        </config>
+        <config key="extremerowhours-per-week16">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row32550_1"/>
+        </config>
+        <config key="extremerowhours-per-week17">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row25667_0"/>
+        </config>
+        <config key="extremerowhours-per-week18">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row31992_0"/>
+        </config>
+    </config>
+    <config key="extremehours-per-week">
+        <entry key="array-size" type="xint" value="19"/>
+        <entry key="0" type="xdouble" value="33.0"/>
+        <entry key="1" type="xdouble" value="34.0"/>
+        <entry key="2" type="xdouble" value="35.0"/>
+        <entry key="3" type="xdouble" value="36.0"/>
+        <entry key="4" type="xdouble" value="37.0"/>
+        <entry key="5" type="xdouble" value="38.0"/>
+        <entry key="6" type="xdouble" value="39.0"/>
+        <entry key="7" type="xdouble" value="41.0"/>
+        <entry key="8" type="xdouble" value="42.0"/>
+        <entry key="9" type="xdouble" value="43.0"/>
+        <entry key="10" type="xdouble" value="44.0"/>
+        <entry key="11" type="xdouble" value="45.0"/>
+        <entry key="12" type="xdouble" value="46.0"/>
+        <entry key="13" type="xdouble" value="47.0"/>
+        <entry key="14" type="xdouble" value="48.0"/>
+        <entry key="15" type="xdouble" value="49.0"/>
+        <entry key="16" type="xdouble" value="50.0"/>
+        <entry key="17" type="xdouble" value="51.0"/>
+        <entry key="18" type="xdouble" value="52.0"/>
+    </config>
+</config>

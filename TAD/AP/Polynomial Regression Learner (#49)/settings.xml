@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="degree" type="xint" value="2"/>
+        <config key="column filter">
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="5"/>
+                <entry key="0" type="xstring" value="fnlwgt"/>
+                <entry key="1" type="xstring" value="education-num"/>
+                <entry key="2" type="xstring" value="capital-gain"/>
+                <entry key="3" type="xstring" value="capital-loss"/>
+                <entry key="4" type="xstring" value="hours-per-week"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+        </config>
+        <entry key="maxViewRows" type="xint" value="10000"/>
+        <entry key="missing_value_handling" type="xstring" value="fail"/>
+        <entry key="targetColumn" type="xstring" value="age"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="The following columns are redundant and will not contribute to the model: capital-gain^2, capital-loss^2, State-gov^2, Self-emp-not-inc^2, Private^2, Federal-gov^2, Local-gov^2, Self-emp-inc^2, Without-pay^2, Never-worked^2, Never-married^2, Married-civ-spouse^2, Divorced^2, Married-spouse-absent^2, Separated^2, Married-AF-spouse^2, Widowed^2, Adm-clerical^2, Exec-managerial^2, Handlers-cleaners^2, Prof-specialty^2, Other-service^2, Sales^2, Craft-repair^2, Transport-moving^2, Farming-fishing^2, Machine-op-inspct^2, Tech-support^2, Protective-serv^2, Armed-Forces^2, Priv-house-serv^2, White^2, Black^2, Asian-Pac-Islander^2, Amer-Indian-Eskimo^2, Other^2, Male^2, Female^2, United-States^2, Cuba^2, Jamaica^2, India^2, Mexico^2, South^2, Puerto-Rico^2, Honduras^2, England^2, Canada^2, Germany^2, Iran^2, Philippines^2, Italy^2, Poland^2, Columbia^2, Cambodia^2, Thailand^2, Ecuador^2, Laos^2, Taiwan^2, Haiti^2, Portugal^2, Dominican-Republic^2, El-Salvador^2, France^2, Guatemala^2, China^2, Japan^2, Yugoslavia^2, Peru^2, Outlying-US(Guam-USVI-etc)^2, Scotland^2, Trinadad&amp;Tobago^2, Greece^2, Nicaragua^2, Vietnam^2, Hong^2, Ireland^2, Hungary^2, Holand-Netherlands^2. Coefficient statistics will not be accurate and contain missing information."/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.node.mine.regression.polynomial.learner2.PolyRegLearnerNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Polynomial Regression Learner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.2.v202209150849"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.2.v202209150849"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Polynomial Regression Learner"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: RegressionModel"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 26048, Cols: 86"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 165, Cols: 6"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="4409aeab-ae60-410f-a42d-f1501fbcbc13"/>
+    </config>
+</config>

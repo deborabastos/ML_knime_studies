@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="filestore">
+    <config key="filestore_keys">
+        <config key="filestore_key_0">
+            <entry key="storeUUID" type="xstring" value="3e0187d3-d12d-4a63-b11a-b08c9be56aa3"/>
+            <entry key="index" type="xint" value="0"/>
+            <entry key="name" type="xstring" value="81e2a41e-5fec-4dbd-beb9-392ea23e6159"/>
+            <entry key="iterationIndex" type="xint" value="-1"/>
+        </config>
+        <config key="filestore_key_1">
+            <entry key="storeUUID" type="xstring" value="3e0187d3-d12d-4a63-b11a-b08c9be56aa3"/>
+            <entry key="index" type="xint" value="1"/>
+            <entry key="name" type="xstring" value="8af2219d-cc52-443e-94a6-e5ad7e7893cd"/>
+            <entry key="iterationIndex" type="xint" value="-1"/>
+        </config>
+    </config>
+</config>
