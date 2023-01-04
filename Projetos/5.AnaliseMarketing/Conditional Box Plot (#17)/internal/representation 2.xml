@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+    <entry key="jsNamespace" type="xstring" value=""/>
+    <config key="jsCode">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="cssCode">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="jsDependencies">
+        <entry key="numSettings" type="xint" value="0"/>
+    </config>
+    <config key="cssDependencies">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <entry key="new" type="xboolean" value="false"/>
+    <entry key="inView" type="xboolean" value="true"/>
+    <config key="tableIds">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="variables">
+        <entry key="numSettings" type="xint" value="0"/>
+        <entry key="mapClass" type="xstring" value="string"/>
+    </config>
+    <config key="binaryFiles">
+        <entry key="numSettings" type="xint" value="0"/>
+        <entry key="mapClass" type="xstring" value="string"/>
+    </config>
+    <config key="options">
+        <entry key="numSettings" type="xint" value="0"/>
+        <entry key="mapClass" type="xstring" value="object"/>
+    </config>
+    <config key="inObjects">
+        <entry key="numSettings" type="xint" value="0"/>
+    </config>
+    <entry key="warnMessage" type="xstring" value=""/>
+    <entry key="errorMessage" type="xstring" value="No numeric columns given"/>
+</config>
