@@ -9,7 +9,7 @@
                 "nrexecs": 4,
                 "nrfails": 0,
                 "exectime": 1373,
-                "nrcreated": 2,
+                "nrcreated": 3,
                 "successor": "org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning"
             },
             {
@@ -362,16 +362,16 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 2202404,
-    "workflowsOpened": 25,
+    "uptime": 21860,
+    "workflowsOpened": 28,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
-    "launches": 5,
+    "launches": 13,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 11012021,
+    "timeSinceLastStart": 284190,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }
