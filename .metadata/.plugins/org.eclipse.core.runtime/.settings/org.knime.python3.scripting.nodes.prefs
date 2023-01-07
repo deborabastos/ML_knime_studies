@@ -1,0 +1,7 @@
+bundledCondaEnvPath=org_knime_pythonscripting
+eclipse.preferences.version=1
+python2CondaEnvironmentDirectoryPath=/Users/deborabastos/opt/anaconda3/envs/py2_knime
+python2Path=python
+python3CondaEnvironmentDirectoryPath=/Users/deborabastos/miniconda3/envs/py3_knime
+python3Path=python3
+pythonEnvironmentType=bundled

@@ -2338,3 +2338,16 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.dis
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+!SESSION 2023-01-06 23:42:17.263 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -keyring /Users/deborabastos/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/deborabastos/.eclipse_keyring -showlocation
+
+!ENTRY org.knime.product 1 0 2023-01-07 00:16:24.046
+!MESSAGE ShellExec command: ./create_env.sh
+
+!ENTRY org.knime.product 1 0 2023-01-07 00:16:24.048
+!MESSAGE ShellExec directory : /Applications/KNIME 4.6.4.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.x86_64_4.6.0.v202207221021/bin
