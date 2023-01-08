@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model"/>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="1268"/>
+        <entry key="y-coordinate" type="xint" value="299"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="407"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="396"/>
+    <config key="outports"/>
+    <config key="metadata">
+        <entry key="description" type="xstring" value="This component analyzes the residuals of an ARIMA (AutoRegressive Integrated Moving Average) model by %%00013%%000101. visualizing auto correlation of the residuals%%00013%%000102. performing Ljung-Box test of autocorrelation at lags 1-10%%00013%%000103. visualizing residuals in a line plot%%00013%%000104. calculating the four first central moments of the residuals%%00013%%000105. performing Jarque-Bera test of normality%%00013%%00010%%00013%%00010If you encoutner errors please verify that %%00010Preferances &gt; KNIME &gt; Python (labs) &gt; Python environment configuration%%00010is set to bundled"/>
+        <entry key="type" type="xstring" value="SINK"/>
+        <entry key="icon" type="xstring" value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsklEQVR4nGNgoBUwMDBwMDIyakDGIDFiNAqAFJuYmGAoBoonAPEEoBoFilwHNLyeaEMMIEABTUzA2Nh4PooA0Gn12JwN8jc2cZAYWBxoUgBQcwGQnoBiKgEDYGEFF4CGsgIooIgxAKYHOweLTegGE20AkkEGQC+uRzNgApwDDxQiAchFGOpRTMTvGlA0YqqFBmIBIc2wAMelQAFo+n5s6R4kBrKZqFQITR8omYmUMCIaAAD0RELelYkiBgAAAABJRU5ErkJggg=="/>
+        <config key="inports">
+            <config key="inport_0">
+                <entry key="name" type="xstring" value="ARIMA Model"/>
+                <entry key="description" type="xstring" value="ARIMA model"/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <config key="workflow_template_information">
+        <entry key="role" type="xstring" value="Link"/>
+        <entry key="timestamp" type="xstring" value="2022-10-11 11:07:20 -0500"/>
+        <entry key="sourceURI" type="xstring" value="knime://EXAMPLES/Users/knime/Examples/00_Components/Time%20Series/Analyze%20ARIMA%20Residuals"/>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;149&quot;,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;resizeTolerance&quot;:5,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;163&quot;,&quot;minHeight&quot;:200,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;resizeTolerance&quot;:5,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;124&quot;,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;resizeTolerance&quot;:5,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;120&quot;,&quot;minHeight&quot;:200,&quot;scrolling&quot;:false,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;resizeTolerance&quot;:5,&quot;sizeWidth&quot;:false,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>

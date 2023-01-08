@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="variable-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+        <config key="port-names">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Port 1"/>
+        </config>
+        <config key="port-descriptions">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Table containing numeric target column to fit the ARIMA model."/>
+        </config>
+        <entry key="sub-node-description" type="xstring" value="Trains AutoRegressive Integrated Moving Average (ARIMA) models and returns the best model according to the search criterion (AIC, BIC) within the provided constraints (max p,d,q). ARIMA model captures temporal structures in time series data in the following components:%%00013%%00010- AR: Relationship between the current observation and a number (p) of lagged observations %%00013%%00010- I: Degree (d) of differencing required to make the time series stationary%%00013%%00010- MA: Time series mean and the relationship between the current forecast error and a number (q) of lagged forecast errors%%00013%%00010%%00013%%00010Additionally, coefficent statistics and residuals are provided as table outputs.%%00013%%00010*Note that the (p,d,q) values of the selected model can be found in the model summary output table.%%00013%%00010%%00013%%00010Model Summary metrics:%%00013%%00010RMSE (Root Mean Square Error)%%00013%%00010MAE (Mean Absolute Error)%%00013%%00010MAPE (Mean Absolute Percentage Error) %%00013%%00010*will be missing if zeroes in target%%00013%%00010R2 (Coefficient of Determination)%%00013%%00010Log Likelihood%%00013%%00010AIC (Akaike Information Criterion)%%00013%%00010BIC (Bayesian Information Criterion)%%00013%%00010%%00013%%00010If you encoutner errors please verify that %%00010Preferances &gt; KNIME &gt; Python (labs) &gt; Python environment configuration%%00010is set to bundled"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="isDeletable" type="xboolean" value="false"/>
+    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Component Input"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.4.v202211210858"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.4.v202211210858"/>
+    <config key="factory_settings">
+        <config key="port_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Component Input"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 220, Cols: 7"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="814819db-d6b8-4b92-8d04-0cb0b69c6b24"/>
+    </config>
+</config>

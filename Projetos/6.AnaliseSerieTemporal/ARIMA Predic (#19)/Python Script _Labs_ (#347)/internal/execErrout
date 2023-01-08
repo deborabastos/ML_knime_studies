@@ -1,0 +1,2 @@
+[WARN]/Applications/KNIME 4.6.4.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.x86_64_4.6.0.v202207221021/env/lib/python3.9/site-packages/statsmodels/tsa/base/tsa_model.py:834: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(

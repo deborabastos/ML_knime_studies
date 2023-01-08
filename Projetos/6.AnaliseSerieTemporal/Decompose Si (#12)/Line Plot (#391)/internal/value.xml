@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewValue">
+    <entry key="chartTitle" type="xstring" value="Trend Removed"/>
+    <entry key="chartSubtitle" type="xstring" value=""/>
+    <entry key="xCol" type="xstring" value="row"/>
+    <config key="yCols">
+        <entry key="array-size" type="xint" value="1"/>
+        <entry key="0" type="xstring" value="Seasonality 1"/>
+    </config>
+    <entry key="xAxisLabel" type="xstring" value=" "/>
+    <entry key="yAxisLabel" type="xstring" value=" "/>
+    <entry key="xAxisMin" type="xstring" isnull="true" value=""/>
+    <entry key="xAxisMax" type="xstring" isnull="true" value=""/>
+    <entry key="yAxisMin" type="xstring" isnull="true" value=""/>
+    <entry key="yAxisMax" type="xstring" isnull="true" value=""/>
+    <entry key="dot_size" type="xstring" value="3"/>
+    <config key="selectedKeys"/>
+    <entry key="image" type="xstring" isnull="true" value=""/>
+    <entry key="line_size" type="xint" value="2"/>
+</config>

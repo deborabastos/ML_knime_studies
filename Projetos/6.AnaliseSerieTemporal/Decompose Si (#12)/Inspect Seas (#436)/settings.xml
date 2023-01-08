@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Lag Value"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Correlation"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="cut"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.5"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="step"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="Variable_4">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="mlag"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="100"/>
+        </config>
+        <config key="Variable_5">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Lag Value"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="0"/>
+        </config>
+        <config key="Variable_6">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Correlation"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.0"/>
+        </config>
+        <config key="Variable_7">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="cut"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.5"/>
+        </config>
+        <config key="Variable_8">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="step"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="1"/>
+        </config>
+        <config key="Variable_9">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="mlag"/>
+            <entry key="class" type="xstring" value="INTEGER"/>
+            <entry key="value" type="xint" value="100"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="mlag-325">
+            <entry key="integer" type="xint" value="200"/>
+        </config>
+        <config key="cut-326">
+            <entry key="double" type="xdouble" value="0.5"/>
+        </config>
+        <config key="step-327">
+            <entry key="integer" type="xint" value="1"/>
+        </config>
+        <config key="value-429">
+            <entry key="column" type="xstring" value="signal"/>
+        </config>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="mlag-325">
+                <config key="integer">
+                    <entry key="used_variable" type="xstring" value="mlag"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+            <config key="cut-326">
+                <config key="double">
+                    <entry key="used_variable" type="xstring" value="cut-off"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+            <config key="step-327">
+                <config key="integer">
+                    <entry key="used_variable" type="xstring" value="slag"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="0"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="988"/>
+        <entry key="y-coordinate" type="xint" value="699"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="7"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="438"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            </config>
+        </config>
+        <config key="outport_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <config key="metadata">
+        <entry key="description" type="xstring" value="This component calculates autocorrelation with Pearson Correlation for lagged copies of time series. Additionally, it produces an interactive view that displays the Autocorrelation Function (ACF) Plot, Partial Autocorrelation Function (PACF) Plot, and detects the first local maximum of correlation for sign of dominant seasonality.%%00013%%00010%%00013%%00010Required extensions: %%00013%%00010KNIME Python Integration%%00013%%00010(https://hub.knime.com/knime/extensions/org.knime.features.python2/latest)%%00013%%00010KNIME Quick Forms %%00013%%00010(https://hub.knime.com/knime/extensions/org.knime.features.js.quickforms/latest)%%00013%%00010KNIME JavaScript Views%%00013%%00010(https://hub.knime.com/knime/extensions/org.knime.features.js.views/latest)%%00013%%00010KNIME Math Expression (JEP)%%00013%%00010(https://hub.knime.com/knime/extensions/org.knime.features.ext.jep/latest)%%00013%%00010%%00013%%00010"/>
+        <entry key="type" type="xstring" value="SINK"/>
+        <entry key="icon" type="xstring" value="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADtUlEQVR4nO1bi3GDMAz1CBmBERiBETKCR+gIjJARPEJGYARG8AhskOJEokLYYIM/JE3vdNfjY0lPz0/GEPF4PEQuG//q0Rqw62gtMTxeZY3pC0C6ZC+jydHUaP1oj0DrKDBvAwBU9u5ISkNiHUnQ2I0ccwEywHVRGRIraQmmWdA9BG2qeAkYryLsGcA4O6Kw4mjijYXeaSplZ5YKATYaADC/byzpAeh8KCBPdijm+5oNAPFS8p5XIXXiHuzbFcee5AeCfJMzaUdMLdOcPkhvAhxJ5ihrxTdiuzKh9I4vxEE04UkEArJzCAEhZOBn8qUT9Yi1DgHhC8DGgEZVNQ5WOsFAILyKtjUQLjz0Gef9RuxUt5zrhLWb6QB1oiDxGSDV+NgiB1cBbTddmJq2CavUgY8moQ9cLClfAOjCQqcKLCMADcln4cdV/c258y4AgB8Ffu5bAGD1+xyqnxGAihS1WgMAW5409ikAgC/saDcrAGSuDKmDKQTA1ZYfvQCf79UnAgD+Bu7vCwA5ifM/qfIXBgC7QTsDgKpkruQLASDBX8cBaPiJDwVgUWg8gf3/liOQUgCAz2k98DQ4iALY/gMAJp9PYwezCeBZAcgWSEEAJrY/7SQAZNMeonenAACDwV2n5FPwVACAbynmL1VNLEl2iFiur10vOKhKdAES1AUqQvciTEzR9yFdIvjvAWhLAkCCq8T8FbgB5MdYRB843V7vEOCgxPlXEgASpKkO/+5AH9UoYJp1KVwj4qWTZwFLsfxCxFC4OgCs+Wfa7qMn0UkyBT5QNdQIyojgliksex70JM69aPMtARioEXrn/T0Hj9PtsXfw3KzYCR6yZ7qfUw0vaI4KztmM0H/2boBfpEgPVqWDjskYonEz7eAX1mIuNFXp4CMBgAKqF+csF3cEgMWrpHczVn35BcADAKqWRZ4QIwOAumZ91+m66UZUU+9pO2cwsvJzFnKNNvT7oLebCoz6zh2nrUFoV2hLJxWYPK76Vr8U8xlMEhBk6eQ8AcBlvWHA6rON74DqHUDABRyJdfPBLnTwU04HRvmgQu1BeFojnKE7gE6hWOPegfej8h6HVBN0yXWCWG6r1z60PwSABXVkg7EqU+LS4n8XG48EwX82g6ZSscKS+KGfy3wBOAIACaoS9t/8aZiju/cYxevtDba2gSXexhDh2BWqWaegAXfC/lNZtCscN/fzlsZBjdZ9otMUgLgAXe+scqGmxd+DWZMk1hSDOpghSYUVmTbUKDuyrDGyAHBm+wXghCL+1Z0j3wAAAABJRU5ErkJggg=="/>
+        <config key="inports">
+            <config key="inport_0">
+                <entry key="name" type="xstring" value="Input Table"/>
+                <entry key="description" type="xstring" value="Data containing selected column for the Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) analysis."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="outports">
+            <config key="outport_0">
+                <entry key="name" type="xstring" value="Data Table of detected local maximum"/>
+                <entry key="description" type="xstring" value="This table contains a list of detected local maximum, their corresponding correlation, and lag value."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+            <config key="outport_1">
+                <entry key="name" type="xstring" value="Flow Variable containing seasonality lag"/>
+                <entry key="description" type="xstring" value="This flow variable contains the lag value where the dominant seasonality might occur."/>
+                <entry key="index" type="xint" value="1"/>
+            </config>
+        </config>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;nodeID&quot;:&quot;149&quot;,&quot;scrolling&quot;:false,&quot;sizeWidth&quot;:false,&quot;resizeTolerance&quot;:5,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>

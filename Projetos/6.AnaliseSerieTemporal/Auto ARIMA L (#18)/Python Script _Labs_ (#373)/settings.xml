@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="script" type="xstring" value="import knime_io as knio%%00010%%00010from numpy import array, ones, linalg%%00010from pandas import datetime%%00010from pandas import DataFrame%%00010from statsmodels.tsa.statespace.sarimax import SARIMAX%%00010import warnings%%00010%%00010warnings.simplefilter('ignore')%%00010%%00010data = knio.input_tables[0].to_pandas()%%00010%%00010a = knio.flow_variables['ar']+1%%00010b = knio.flow_variables['i']+1%%00010c = knio.flow_variables['ma']+1%%00010%%00010series = data[knio.flow_variables['target']]%%00010aic = float('inf')%%00010bic = float('inf')%%00010%%00010for i in range(a):%%00010    for j in range(b):%%00010        for k in range(c):%%00010            try:%%00010                model = SARIMAX(series, order=(i,j,k))%%00010                model_fit = model.fit(disp=0)%%00010                if knio.flow_variables['crit'] == &quot;AIC&quot;:%%00010                    m_aic = model_fit.aic%%00010                    print(&quot;AR: &quot; + str(i) + &quot;, I: &quot; + str(j) + &quot;, MA: &quot; + str(k) + &quot;, AIC: &quot; + str(m_aic))%%00010                    if m_aic &lt; aic:%%00010                        aic = m_aic%%00010                        i_out = i%%00010                        j_out = j%%00010                        k_out = k%%00010                        knio.output_objects[0] = model_fit%%00010                else:%%00010                    m_bic = model_fit.bic%%00010                    print(&quot;AR: &quot; + str(i) + &quot;, I: &quot; + str(j) + &quot;, MA: &quot; + str(k) + &quot;, BIC: &quot; + str(m_bic))%%00010                    if m_bic &lt; bic:%%00010                        bic = m_bic%%00010                        i_out = i%%00010                        j_out = j%%00010                        k_out = k%%00010                        knio.output_objects[0] = model_fit%%00010            except:%%00010                    print(&quot;AR: &quot; + str(i) + &quot;, I: &quot; + str(j) + &quot;, MA: &quot; + str(k) + &quot;, error! skipped...&quot;)%%00010                    continue%%00010%%00010print(&quot;------------------------------BEST MODEL(&quot; + str(i_out) + &quot;,&quot; + str(j_out) + &quot;,&quot; + str(k_out) + &quot;)-------------------------------&quot;)%%00010print(knio.output_objects[0].summary())"/>
+        <entry key="python3_command" type="xstring" value=""/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Python Script (Labs)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Scripting Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python3.scripting.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.6.2.v202209150850"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Python Integration (Labs)"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python3.scripting.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.6.2.v202211161817"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input object (pickled)"/>
+        <config key="Input table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output table"/>
+        <config key="Output image"/>
+        <config key="Output object (pickled)">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.python2.port.PickledObjectFileStorePortObject"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Python Script (Labs)"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.python2.port.PickledObjectPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.python2.port.PickledObjectFileStorePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="SARIMAXResultsWrapper%%00010&lt;statsmodels.tsa.statespace.sarimax..."/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" value="filestore"/>
+        <entry key="file_store_id" type="xstring" value="f8d2d386-7ed9-4a40-941e-10bb222c058a"/>
+    </config>
+</config>

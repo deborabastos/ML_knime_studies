@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="value-324">
+            <entry key="column" type="xstring" value="notrend"/>
+        </config>
+        <config key="lag-325">
+            <entry key="integer" type="xint" value="24"/>
+        </config>
+    </config>
+    <config key="variables">
+        <config key="lag-325">
+            <config key="integer">
+                <entry key="used_variable" type="xstring" value="Lag Value"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="488"/>
+        <entry key="y-coordinate" type="xint" value="419"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="7"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="339"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="outport_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <config key="metadata">
+        <entry key="description" type="xstring" value="Removes seasonality trend in input data.%%00010%%00010Required extensions: %%00010KNIME Quick Forms %%00010(https://hub.knime.com/knime/extensions/org.knime.features.js.quickforms/latest)%%00010KNIME Math Expression (JEP)%%00010(https://hub.knime.com/knime/extensions/org.knime.features.ext.jep/latest)"/>
+        <config key="inports">
+            <config key="inport_0">
+                <entry key="name" type="xstring" value="Input Table"/>
+                <entry key="description" type="xstring" value="Data containing selected column for seasonality removal."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="outports">
+            <config key="outport_0">
+                <entry key="name" type="xstring" value="Input data with removed seasonality"/>
+                <entry key="description" type="xstring" value="Extra column added to original table with value x(t) - x(t-lag) where lag is the value given by user in the configuration dialog."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+            <config key="outport_1">
+                <entry key="name" type="xstring" value="The seasonality column"/>
+                <entry key="description" type="xstring" value="This table contains the removed seasonality column. This information would be needed to re-add the seasonality back into the data later."/>
+                <entry key="index" type="xint" value="1"/>
+            </config>
+        </config>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;autoResize&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;nodeID&quot;:&quot;14&quot;,&quot;resizeTolerance&quot;:5},{&quot;type&quot;:&quot;view&quot;,&quot;minHeight&quot;:200,&quot;resizeMethod&quot;:&quot;viewTaggedElement&quot;,&quot;autoResize&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;nodeID&quot;:&quot;21&quot;,&quot;resizeTolerance&quot;:5}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>

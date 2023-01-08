@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewValue">
+    <entry key="chartTitle" type="xstring" value="Auto Correlation of Residuals"/>
+    <entry key="chartSubtitle" type="xstring" value=""/>
+    <entry key="xCol" type="xstring" value="lag"/>
+    <config key="yCols">
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xstring" value="upper_limit"/>
+        <entry key="1" type="xstring" value="lower_limit"/>
+        <entry key="2" type="xstring" value="zero"/>
+        <entry key="3" type="xstring" value="acf"/>
+    </config>
+    <entry key="xAxisLabel" type="xstring" value="Lag"/>
+    <entry key="yAxisLabel" type="xstring" value="Auto Correlation"/>
+    <entry key="xAxisMin" type="xstring" value="1.0"/>
+    <entry key="xAxisMax" type="xstring" value="249.0"/>
+    <entry key="yAxisMin" type="xstring" value="-0.9999999999999999"/>
+    <entry key="yAxisMax" type="xstring" value="1.0"/>
+    <entry key="dot_size" type="xstring" value="3"/>
+    <config key="selectedKeys"/>
+    <entry key="image" type="xstring" isnull="true" value=""/>
+    <entry key="line_size" type="xint" value="2"/>
+</config>

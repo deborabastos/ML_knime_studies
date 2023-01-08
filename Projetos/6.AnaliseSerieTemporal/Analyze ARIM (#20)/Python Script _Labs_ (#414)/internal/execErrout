@@ -1,0 +1,4 @@
+[WARN]/Applications/KNIME 4.6.4.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.x86_64_4.6.0.v202207221021/env/lib/python3.9/site-packages/numpy/lib/function_base.py:2845: RuntimeWarning: Degrees of freedom <= 0 for slice
+  c = cov(x, y, rowvar, dtype=dtype)
+[WARN]/Applications/KNIME 4.6.4.app/Contents/Eclipse/plugins/org.knime.pythonscripting.channel.v1.bin.macosx.x86_64_4.6.0.v202207221021/env/lib/python3.9/site-packages/numpy/lib/function_base.py:2704: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
