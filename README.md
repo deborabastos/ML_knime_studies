@@ -6,3 +6,4 @@
 - [Análise Preditiva](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/4.AnalisePreditiva)
 - [Análise Marketing - Banco](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/5.AnaliseMarketing)
 - [Análise Série Temporal](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/6.AnaliseSerieTemporal)
+- [Análise de Rede Social](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/7.AnaliseRedeSocial)
