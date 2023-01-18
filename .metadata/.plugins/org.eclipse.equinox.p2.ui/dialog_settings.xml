@@ -9,6 +9,7 @@
 		<item key="AvailableVersionColumnWidth" value="269"/>
 		<item key="AvailableListSashWeight" value="800"/>
 		<item key="AvailableDetailsSashWeight" value="200"/>
+		<item key="ResolveInstallWithAllSites" value="true"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.PreselectedIUInstallWizard.WizardSettings">
 		<item key="DIALOG_X_ORIGIN" value="320"/>
@@ -32,6 +33,20 @@
 		<item key="DetailsSashWeight" value="200"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.ResolutionResultsPage">
+		<item key="NameColumnWidth" value="400"/>
+		<item key="VersionColumnWidth" value="200"/>
+		<item key="IDColumnWidth" value="200"/>
+		<item key="ListSashWeight" value="800"/>
+		<item key="DetailsSashWeight" value="200"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.PreselectedIUInstallWizard.SelectableIUsPage">
+		<item key="NameColumnWidth" value="401"/>
+		<item key="VersionColumnWidth" value="133"/>
+		<item key="IDColumnWidth" value="267"/>
+		<item key="ListSashWeight" value="800"/>
+		<item key="DetailsSashWeight" value="200"/>
+	</section>
+	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.PreselectedIUInstallWizard.ResolutionResultsPage">
 		<item key="NameColumnWidth" value="400"/>
 		<item key="VersionColumnWidth" value="200"/>
 		<item key="IDColumnWidth" value="200"/>

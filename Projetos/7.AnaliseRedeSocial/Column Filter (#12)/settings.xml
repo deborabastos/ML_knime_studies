@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="78"/>
+                <entry key="0" type="xstring" value="Avg. node degree"/>
+                <entry key="1" type="xstring" value="Min. node degree"/>
+                <entry key="2" type="xstring" value="Max. node degree"/>
+                <entry key="3" type="xstring" value="Std. dev. node degree"/>
+                <entry key="4" type="xstring" value="Avg. node degree %"/>
+                <entry key="5" type="xstring" value="Min. node degree %"/>
+                <entry key="6" type="xstring" value="Max. node degree %"/>
+                <entry key="7" type="xstring" value="Std. dev. node degree %"/>
+                <entry key="8" type="xstring" value="Avg. in degree"/>
+                <entry key="9" type="xstring" value="Min. in degree"/>
+                <entry key="10" type="xstring" value="Max. in degree"/>
+                <entry key="11" type="xstring" value="Std. dev. in degree"/>
+                <entry key="12" type="xstring" value="Avg. in degree %"/>
+                <entry key="13" type="xstring" value="Min. in degree %"/>
+                <entry key="14" type="xstring" value="Max. in degree %"/>
+                <entry key="15" type="xstring" value="Std. dev. in degree %"/>
+                <entry key="16" type="xstring" value="Avg. out degree"/>
+                <entry key="17" type="xstring" value="Min. out degree"/>
+                <entry key="18" type="xstring" value="Max. out degree"/>
+                <entry key="19" type="xstring" value="Std. dev. out degree"/>
+                <entry key="20" type="xstring" value="Avg. out degree %"/>
+                <entry key="21" type="xstring" value="Min. out degree %"/>
+                <entry key="22" type="xstring" value="Max. out degree %"/>
+                <entry key="23" type="xstring" value="Std. dev. out degree %"/>
+                <entry key="24" type="xstring" value="Avg. closeness centrality"/>
+                <entry key="25" type="xstring" value="Min. closeness centrality"/>
+                <entry key="26" type="xstring" value="Max. closeness centrality"/>
+                <entry key="27" type="xstring" value="Std. dev. closeness centrality"/>
+                <entry key="28" type="xstring" value="Avg. node weight"/>
+                <entry key="29" type="xstring" value="Min. node weight"/>
+                <entry key="30" type="xstring" value="Max. node weight"/>
+                <entry key="31" type="xstring" value="Std. dev. node weight"/>
+                <entry key="32" type="xstring" value="Avg. node weight avg."/>
+                <entry key="33" type="xstring" value="Min. node weight avg."/>
+                <entry key="34" type="xstring" value="Max. node weight avg."/>
+                <entry key="35" type="xstring" value="Std. dev. node weight avg."/>
+                <entry key="36" type="xstring" value="Avg. clustering coefficient"/>
+                <entry key="37" type="xstring" value="Min. clustering coefficient"/>
+                <entry key="38" type="xstring" value="Max. clustering coefficient"/>
+                <entry key="39" type="xstring" value="Std. dev. clustering coefficient"/>
+                <entry key="40" type="xstring" value="Avg. hub score"/>
+                <entry key="41" type="xstring" value="Min. hub score"/>
+                <entry key="42" type="xstring" value="Max. hub score"/>
+                <entry key="43" type="xstring" value="Std. dev. hub score"/>
+                <entry key="44" type="xstring" value="Avg. authority score"/>
+                <entry key="45" type="xstring" value="Min. authority score"/>
+                <entry key="46" type="xstring" value="Max. authority score"/>
+                <entry key="47" type="xstring" value="Std. dev. authority score"/>
+                <entry key="48" type="xstring" value="Avg. barycenter score"/>
+                <entry key="49" type="xstring" value="Min. barycenter score"/>
+                <entry key="50" type="xstring" value="Max. barycenter score"/>
+                <entry key="51" type="xstring" value="Std. dev. barycenter score"/>
+                <entry key="52" type="xstring" value="Avg. edge degree"/>
+                <entry key="53" type="xstring" value="Min. edge degree"/>
+                <entry key="54" type="xstring" value="Max. edge degree"/>
+                <entry key="55" type="xstring" value="Std. dev. edge degree"/>
+                <entry key="56" type="xstring" value="Avg. edge degree %"/>
+                <entry key="57" type="xstring" value="Min. edge degree %"/>
+                <entry key="58" type="xstring" value="Max. edge degree %"/>
+                <entry key="59" type="xstring" value="Std. dev. edge degree %"/>
+                <entry key="60" type="xstring" value="Avg. edge weight"/>
+                <entry key="61" type="xstring" value="Min. edge weight"/>
+                <entry key="62" type="xstring" value="Max. edge weight"/>
+                <entry key="63" type="xstring" value="Std. dev. edge weight"/>
+                <entry key="64" type="xstring" value="Avg. edge weight avg."/>
+                <entry key="65" type="xstring" value="Min. edge weight avg."/>
+                <entry key="66" type="xstring" value="Max. edge weight avg."/>
+                <entry key="67" type="xstring" value="Std. dev. edge weight avg."/>
+                <entry key="68" type="xstring" value="No. of components"/>
+                <entry key="69" type="xstring" value="Avg. component size"/>
+                <entry key="70" type="xstring" value="Min. component size"/>
+                <entry key="71" type="xstring" value="Max. component size"/>
+                <entry key="72" type="xstring" value="Component root node id"/>
+                <entry key="73" type="xstring" value="Component sizes"/>
+                <entry key="74" type="xstring" value="Component root node id/size"/>
+                <entry key="75" type="xstring" value="No of partitions"/>
+                <entry key="76" type="xstring" value="No of nodes"/>
+                <entry key="77" type="xstring" value="No of edges"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.collection.ListDataValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Mostra estatísticas da Rede"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="749"/>
+        <entry key="y-coordinate" type="xint" value="439"/>
+        <entry key="width" type="xint" value="142"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="LEFT"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="0"/>
+                <entry key="length" type="xint" value="27"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="11"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211291414"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211291442"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

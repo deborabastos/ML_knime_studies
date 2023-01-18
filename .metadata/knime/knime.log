@@ -1,0 +1,863 @@
+2023-01-17 21:26:18,433 : WARN  : main :  : Node : File Reader : 3:2 : Please specify a file
+2023-01-17 21:26:19,215 : WARN  : main :  : Node : File Reader : 3:3 : Please specify a file
+2023-01-17 21:27:50,198 : ERROR : KNIME-Worker-16-Network Creator 3:1 :  : FeatureTypeFactory : Network Creator : 3:1 : Problems during initialization of basic feature type (for extension 'org.knime.network.core.core.feature.FeatureTypeSDF'.)
+org.eclipse.core.runtime.CoreException: Plug-in "org.knime.network.base" was unable to instantiate class "org.knime.network.core.core.feature.FeatureTypeSDF".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:206)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.registerExtensionPoints(FeatureTypeFactory.java:180)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.<init>(FeatureTypeFactory.java:131)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getInstance(FeatureTypeFactory.java:143)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicTypesMap(FeatureTypeFactory.java:355)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicType(FeatureTypeFactory.java:350)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getType(FeatureTypeFactory.java:316)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getListType(FeatureTypeFactory.java:290)
+	at org.knime.network.core.core.feature.StandardFeature.<clinit>(StandardFeature.java:100)
+	at org.knime.network.core.core.impl.KPartiteGraphImpl.saveGraphData(KPartiteGraphImpl.java:167)
+	at org.knime.network.core.core.impl.KPartiteGraphImpl.<init>(KPartiteGraphImpl.java:142)
+	at org.knime.network.core.core.GraphFactory.createNetwork(GraphFactory.java:164)
+	at org.knime.network.core.core.GraphFactory.createNetwork(GraphFactory.java:132)
+	at org.knime.network.core.core.GraphFactory.createNet(GraphFactory.java:263)
+	at org.knime.network.node.io.creator.NetworkCreatorNodeModel.execute(NetworkCreatorNodeModel.java:110)
+	at org.knime.network.node.io.creator.NetworkCreatorNodeModel.execute(NetworkCreatorNodeModel.java:1)
+	at org.knime.network.core.knime.node.KPartiteGraphViewSourceNodeModel.executeInternal(KPartiteGraphViewSourceNodeModel.java:106)
+	at org.knime.network.core.knime.node.AbstractGraphNodeModel.execute(AbstractGraphNodeModel.java:140)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.lang.NoClassDefFoundError: org/knime/chem/types/SdfValue
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<init>(FeatureTypeSDF.java:81)
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<clinit>(FeatureTypeSDF.java:65)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	... 33 more
+Caused by: java.lang.ClassNotFoundException: org.knime.chem.types.SdfValue cannot be found by org.knime.network.base_4.7.0.v202207220918
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 41 more
+2023-01-17 21:31:14,404 : WARN  : main :  : Node : Object Inserter : 3:4 : Please select at least one node or edge id column
+2023-01-17 21:35:21,037 : WARN  : main :  : Node : Feature Inserter : 3:5 : Please enter a feature name
+2023-01-17 21:35:33,873 : WARN  : main :  : Node : Feature Inserter : 3:6 : Please enter a feature name
+2023-01-17 21:36:53,521 : WARN  : main :  : Node : Feature Inserter : 3:6 : Please enter a feature name
+2023-01-17 21:36:55,895 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row0 Exception: node: Row0 not found. Row0: (s01, NY Times, 1, Newspaper, 20)
+2023-01-17 21:36:55,895 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row0 Exception: node: Row0 not found
+2023-01-17 21:36:55,895 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row1 Exception: node: Row1 not found. Row1: (s02, Washington Post, 1, Newspaper, 25)
+2023-01-17 21:36:55,895 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row1 Exception: node: Row1 not found
+2023-01-17 21:36:55,895 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row2 Exception: node: Row2 not found. Row2: (s03, Wall Street Journal, 1, Newspaper, 30)
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row2 Exception: node: Row2 not found
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row3 Exception: node: Row3 not found. Row3: (s04, USA Today, 1, Newspaper, 32)
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row3 Exception: node: Row3 not found
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row4 Exception: node: Row4 not found. Row4: (s05, LA Times, 1, Newspaper, 20)
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row4 Exception: node: Row4 not found
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row5 Exception: node: Row5 not found. Row5: (s06, New York Post, 1, Newspaper, 50)
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row5 Exception: node: Row5 not found
+2023-01-17 21:36:55,896 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row6 Exception: node: Row6 not found. Row6: (s07, CNN, 2, TV, 56)
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row6 Exception: node: Row6 not found
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row7 Exception: node: Row7 not found. Row7: (s08, MSNBC, 2, TV, 34)
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row7 Exception: node: Row7 not found
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row8 Exception: node: Row8 not found. Row8: (s09, FOX News, 2, TV, 60)
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row8 Exception: node: Row8 not found
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row9 Exception: node: Row9 not found. Row9: (s10, ABC, 2, TV, 23)
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row9 Exception: node: Row9 not found
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row10 Exception: node: Row10 not found. Row10: (s11, BBC, 2, TV, 34)
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row10 Exception: node: Row10 not found
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row11 Exception: node: Row11 not found. Row11: (s12, Yahoo News, 3, Online, 33)
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row11 Exception: node: Row11 not found
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row12 Exception: node: Row12 not found. Row12: (s13, Google News, 3, Online, 23)
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row12 Exception: node: Row12 not found
+2023-01-17 21:36:55,897 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row13 Exception: node: Row13 not found. Row13: (s14, Reuters.com, 3, Online, 12)
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row13 Exception: node: Row13 not found
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row14 Exception: node: Row14 not found. Row14: (s15, NYTimes.com, 3, Online, 24)
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row14 Exception: node: Row14 not found
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row15 Exception: node: Row15 not found. Row15: (s16, WashingtonPost.com, 3, Online, 28)
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row15 Exception: node: Row15 not found
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row16 Exception: node: Row16 not found. Row16: (s17, AOL.com, 3, Online, 33)
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row16 Exception: node: Row16 not found
+2023-01-17 21:36:55,898 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : 17 invalid rows found. For details see log file.
+2023-01-17 21:36:55,899 : WARN  : KNIME-Worker-18-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:6 : Please enter a feature name
+2023-01-17 21:37:51,299 : WARN  : main :  : Node : Feature Inserter : 3:7 : Please enter a feature name
+2023-01-17 21:47:40,651 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row0 Exception: node: Row0 not found. Row0: (s01, NY Times, 1, Newspaper, 20)
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row0 Exception: node: Row0 not found
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row1 Exception: node: Row1 not found. Row1: (s02, Washington Post, 1, Newspaper, 25)
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row1 Exception: node: Row1 not found
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row2 Exception: node: Row2 not found. Row2: (s03, Wall Street Journal, 1, Newspaper, 30)
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row2 Exception: node: Row2 not found
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row3 Exception: node: Row3 not found. Row3: (s04, USA Today, 1, Newspaper, 32)
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row3 Exception: node: Row3 not found
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row4 Exception: node: Row4 not found. Row4: (s05, LA Times, 1, Newspaper, 20)
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row4 Exception: node: Row4 not found
+2023-01-17 21:47:40,653 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row5 Exception: node: Row5 not found. Row5: (s06, New York Post, 1, Newspaper, 50)
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row5 Exception: node: Row5 not found
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row6 Exception: node: Row6 not found. Row6: (s07, CNN, 2, TV, 56)
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row6 Exception: node: Row6 not found
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row7 Exception: node: Row7 not found. Row7: (s08, MSNBC, 2, TV, 34)
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row7 Exception: node: Row7 not found
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row8 Exception: node: Row8 not found. Row8: (s09, FOX News, 2, TV, 60)
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row8 Exception: node: Row8 not found
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row9 Exception: node: Row9 not found. Row9: (s10, ABC, 2, TV, 23)
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row9 Exception: node: Row9 not found
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row10 Exception: node: Row10 not found. Row10: (s11, BBC, 2, TV, 34)
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row10 Exception: node: Row10 not found
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row11 Exception: node: Row11 not found. Row11: (s12, Yahoo News, 3, Online, 33)
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row11 Exception: node: Row11 not found
+2023-01-17 21:47:40,654 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row12 Exception: node: Row12 not found. Row12: (s13, Google News, 3, Online, 23)
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row12 Exception: node: Row12 not found
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row13 Exception: node: Row13 not found. Row13: (s14, Reuters.com, 3, Online, 12)
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row13 Exception: node: Row13 not found
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row14 Exception: node: Row14 not found. Row14: (s15, NYTimes.com, 3, Online, 24)
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row14 Exception: node: Row14 not found
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row15 Exception: node: Row15 not found. Row15: (s16, WashingtonPost.com, 3, Online, 28)
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row15 Exception: node: Row15 not found
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : FeatureInserterNodeModel : Feature Inserter : 3:5 : Invalid row Row16 Exception: node: Row16 not found. Row16: (s17, AOL.com, 3, Online, 33)
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : Exception found in row Row16 Exception: node: Row16 not found
+2023-01-17 21:47:40,655 : WARN  : KNIME-Worker-37-Feature Inserter 3:5 :  : Node : Feature Inserter : 3:5 : 17 invalid rows found. For details see log file.
+2023-01-17 22:03:40,978 : WARN  : main :  : Node : Joiner : 3:13 : No join columns passed.
+2023-01-17 22:04:30,831 : WARN  : KNIME-Worker-71-Joiner 3:13 :  : Node : Joiner : 3:13 : Node created an empty data table.
+2023-01-17 22:05:05,499 : WARN  : main :  : Node : Feature Inserter : 3:5 : Node column not found in input table
+2023-01-17 22:05:07,776 : WARN  : KNIME-Worker-75-File Reader 3:3 :  : Node : Feature Inserter : 3:5 : Node column not found in input table
+2023-01-17 22:05:12,588 : WARN  : main :  : Node : Feature Inserter : 3:6 : Node column not found in input table
+2023-01-17 22:05:15,705 : WARN  : main :  : Node : Feature Inserter : 3:7 : Node column not found in input table
+2023-01-17 22:05:28,242 : WARN  : main :  : Node : Object Inserter : 3:4 : Column: from not available in input table
+2023-01-17 22:05:31,147 : ERROR : KNIME-Worker-77-File Reader 3:2 :  : Node : File Reader : 3:2 : Execute failed: Encountered duplicate row ID "s01"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "s01"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.close(BufferedDataContainerDelegate.java:444)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:347)
+	at org.knime.core.node.streamable.BufferedDataTableRowOutput.close(BufferedDataTableRowOutput.java:87)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead$MultiReadsCloser.close(DefaultMultiTableRead.java:228)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:207)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "s01"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:701)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:764)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 22:05:31,147 : WARN  : KNIME-Worker-77-File Reader 3:2 :  : Node : Object Inserter : 3:4 : Column: from not available in input table
+2023-01-17 22:05:35,897 : ERROR : KNIME-Worker-78-File Reader 3:2 :  : Node : File Reader : 3:2 : Execute failed: Encountered duplicate row ID "s01"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "s01"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.close(BufferedDataContainerDelegate.java:444)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:347)
+	at org.knime.core.node.streamable.BufferedDataTableRowOutput.close(BufferedDataTableRowOutput.java:87)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead$MultiReadsCloser.close(DefaultMultiTableRead.java:228)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:207)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "s01"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:701)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:764)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 22:05:35,898 : WARN  : KNIME-Worker-78-File Reader 3:2 :  : Node : Object Inserter : 3:4 : Column: from not available in input table
+2023-01-17 22:05:57,521 : WARN  : main :  : WrappedNodeDialog : Object Inserter : 3:4 : failed to apply settings: Selection of second node id column requires the selection of the first node id
+org.knime.core.node.InvalidSettingsException: Selection of second node id column requires the selection of the first node id
+	at org.knime.network.node.inserter.object.ObjectInserterNodeModel.checkIdCols(ObjectInserterNodeModel.java:661)
+	at org.knime.network.node.inserter.object.ObjectInserterNodeModel.validateSettings(ObjectInserterNodeModel.java:389)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1184)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1000)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2060)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1140)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:957)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:864)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:846)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:835)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:399)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4604)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4390)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3966)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:191)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+2023-01-17 22:06:02,211 : ERROR : KNIME-Worker-79-File Reader 3:2 :  : Node : File Reader : 3:2 : Execute failed: Encountered duplicate row ID "s01"
+org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "s01"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:377)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.close(BufferedDataContainerDelegate.java:444)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:347)
+	at org.knime.core.node.streamable.BufferedDataTableRowOutput.close(BufferedDataTableRowOutput.java:87)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead$MultiReadsCloser.close(DefaultMultiTableRead.java:228)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:207)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.util.DuplicateKeyException: Encountered duplicate row ID "s01"
+	at org.knime.core.data.container.BufferedDataContainerDelegate.addRowKeyForDuplicateCheck(BufferedDataContainerDelegate.java:701)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:764)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 22:06:02,212 : WARN  : KNIME-Worker-79-File Reader 3:2 :  : Node : Object Inserter : 3:4 : Column: from not available in input table
+2023-01-17 22:09:49,591 : WARN  : main :  : Node : Sorter : 3:14 : No selected columns to sort
+2023-01-17 22:13:27,263 : WARN  : main :  : Node : Row Filter : 3:15 : No row filter specified
+2023-01-17 22:16:01,482 : WARN  : main :  : Node : Joiner : 3:16 : No join columns passed.
+2023-01-17 22:23:31,996 : WARN  : KNIME-Worker-103-SubGraph Extractor 3:17 :  : Node : SubGraph Extractor : 3:17 : No of graphs >= no of objects. Using all objects
+2023-01-17 22:25:32,115 : WARN  : main :  : Node : Row To Network : 3:18 : Preset column SubGraph as network column
+2023-01-17 22:27:40,488 : WARN  : main :  : WrappedNodeDialog : Network Viewer (local) : 3:20 : failed to apply settings: Please select an item from the list.
+org.knime.core.node.InvalidSettingsException: Please select an item from the list.
+	at org.knime.core.node.defaultnodesettings.DialogComponentStringSelection.updateModel(DialogComponentStringSelection.java:382)
+	at org.knime.core.node.defaultnodesettings.DialogComponentStringSelection.validateSettingsBeforeSave(DialogComponentStringSelection.java:396)
+	at org.knime.core.node.defaultnodesettings.DialogComponent.saveSettingsTo(DialogComponent.java:198)
+	at org.knime.core.node.defaultnodesettings.DefaultNodeSettingsPane.saveSettingsTo(DefaultNodeSettingsPane.java:290)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:540)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:779)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-01-17 22:27:42,903 : WARN  : main :  : WrappedNodeDialog : Network Viewer (local) : 3:20 : failed to apply settings: Please select an item from the list.
+org.knime.core.node.InvalidSettingsException: Please select an item from the list.
+	at org.knime.core.node.defaultnodesettings.DialogComponentStringSelection.updateModel(DialogComponentStringSelection.java:382)
+	at org.knime.core.node.defaultnodesettings.DialogComponentStringSelection.validateSettingsBeforeSave(DialogComponentStringSelection.java:396)
+	at org.knime.core.node.defaultnodesettings.DialogComponent.saveSettingsTo(DialogComponent.java:198)
+	at org.knime.core.node.defaultnodesettings.DefaultNodeSettingsPane.saveSettingsTo(DefaultNodeSettingsPane.java:290)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:540)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:779)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2023-01-17 22:48:37,492 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 22:48:37,492 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 22:48:44,786 : ERROR : ModalContext :  : FeatureTypeFactory : Network Creator : 3:1 : Problems during initialization of basic feature type (for extension 'org.knime.network.core.core.feature.FeatureTypeSDF'.)
+org.eclipse.core.runtime.CoreException: Plug-in "org.knime.network.base" was unable to instantiate class "org.knime.network.core.core.feature.FeatureTypeSDF".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:206)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.registerExtensionPoints(FeatureTypeFactory.java:180)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.<init>(FeatureTypeFactory.java:131)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getInstance(FeatureTypeFactory.java:143)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicTypesMap(FeatureTypeFactory.java:355)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicType(FeatureTypeFactory.java:350)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getType(FeatureTypeFactory.java:316)
+	at org.knime.network.core.core.GraphMetaData.loadFeatureInfo(GraphMetaData.java:534)
+	at org.knime.network.core.core.GraphMetaData.loadFeatureMetaData(GraphMetaData.java:525)
+	at org.knime.network.core.core.GraphMetaData.load(GraphMetaData.java:486)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec.load(GraphPortObjectSpec.java:125)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec$Serializer.loadPortObjectSpec(GraphPortObjectSpec.java:93)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec$Serializer.loadPortObjectSpec(GraphPortObjectSpec.java:1)
+	at org.knime.core.node.FileNodePersistor.loadPortObject(FileNodePersistor.java:430)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:373)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:330)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.lang.NoClassDefFoundError: org/knime/chem/types/SdfValue
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<init>(FeatureTypeSDF.java:81)
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<clinit>(FeatureTypeSDF.java:65)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	... 31 more
+Caused by: java.lang.ClassNotFoundException: org.knime.chem.types.SdfValue cannot be found by org.knime.network.base_4.7.0.v202207220918
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 39 more
+2023-01-17 22:48:45,003 : WARN  : ModalContext :  : FileNodePersistor : SubGraph Extractor : 3:17 : Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+org.knime.core.node.InvalidSettingsException: Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+	at org.knime.core.data.DataType.load(DataType.java:664)
+	at org.knime.core.data.DataColumnSpec.load(DataColumnSpec.java:416)
+	at org.knime.core.data.DataTableSpec.load(DataTableSpec.java:319)
+	at org.knime.core.node.BufferedDataTable.loadSpec(BufferedDataTable.java:742)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:785)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:477)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:366)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:330)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-01-17 22:48:45,005 : WARN  : ModalContext :  : FileNodePersistor : SubGraph Extractor : 3:24 : Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+org.knime.core.node.InvalidSettingsException: Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+	at org.knime.core.data.DataType.load(DataType.java:664)
+	at org.knime.core.data.DataColumnSpec.load(DataColumnSpec.java:416)
+	at org.knime.core.data.DataTableSpec.load(DataTableSpec.java:319)
+	at org.knime.core.node.BufferedDataTable.loadSpec(BufferedDataTable.java:742)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:785)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:477)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:366)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:330)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-01-17 22:48:45,034 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 7.AnaliseRedeSocial 3 loaded with error during data load
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 7.AnaliseRedeSocial 3
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: SubGraph Extractor 3:17
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: SubGraph Extractor 3:24
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Network Viewer (local) 3:20
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: Network not found in cache
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Network Viewer (local) 3:27
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: Network not found in cache
+2023-01-17 22:48:45,035 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from CONFIGURED to IDLE
+2023-01-17 22:50:57,262 : ERROR : ModalContext :  : FeatureTypeFactory : Network Creator : 3:1 : Problems during initialization of basic feature type (for extension 'org.knime.network.core.core.feature.FeatureTypeSDF'.)
+org.eclipse.core.runtime.CoreException: Plug-in "org.knime.network.base" was unable to instantiate class "org.knime.network.core.core.feature.FeatureTypeSDF".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:206)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.registerExtensionPoints(FeatureTypeFactory.java:180)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.<init>(FeatureTypeFactory.java:131)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getInstance(FeatureTypeFactory.java:143)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicTypesMap(FeatureTypeFactory.java:355)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicType(FeatureTypeFactory.java:350)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getType(FeatureTypeFactory.java:316)
+	at org.knime.network.core.core.GraphMetaData.loadFeatureInfo(GraphMetaData.java:534)
+	at org.knime.network.core.core.GraphMetaData.loadFeatureMetaData(GraphMetaData.java:525)
+	at org.knime.network.core.core.GraphMetaData.load(GraphMetaData.java:486)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec.load(GraphPortObjectSpec.java:125)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec$Serializer.loadPortObjectSpec(GraphPortObjectSpec.java:93)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec$Serializer.loadPortObjectSpec(GraphPortObjectSpec.java:1)
+	at org.knime.core.node.FileNodePersistor.loadPortObject(FileNodePersistor.java:430)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:373)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:330)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.lang.NoClassDefFoundError: org/knime/chem/types/SdfValue
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<init>(FeatureTypeSDF.java:81)
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<clinit>(FeatureTypeSDF.java:65)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	... 31 more
+Caused by: java.lang.ClassNotFoundException: org.knime.chem.types.SdfValue cannot be found by org.knime.network.base_4.7.0.v202207220918
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 39 more
+2023-01-17 22:50:57,417 : WARN  : ModalContext :  : FileNodePersistor : SubGraph Extractor : 3:17 : Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+org.knime.core.node.InvalidSettingsException: Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+	at org.knime.core.data.DataType.load(DataType.java:664)
+	at org.knime.core.data.DataColumnSpec.load(DataColumnSpec.java:416)
+	at org.knime.core.data.DataTableSpec.load(DataTableSpec.java:319)
+	at org.knime.core.node.BufferedDataTable.loadSpec(BufferedDataTable.java:742)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:785)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:477)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:366)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:330)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-01-17 22:50:57,419 : WARN  : ModalContext :  : FileNodePersistor : SubGraph Extractor : 3:24 : Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+org.knime.core.node.InvalidSettingsException: Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+	at org.knime.core.data.DataType.load(DataType.java:664)
+	at org.knime.core.data.DataColumnSpec.load(DataColumnSpec.java:416)
+	at org.knime.core.data.DataTableSpec.load(DataTableSpec.java:319)
+	at org.knime.core.node.BufferedDataTable.loadSpec(BufferedDataTable.java:742)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:785)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:477)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:366)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:330)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 7.AnaliseRedeSocial 3 loaded with error during data load
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 7.AnaliseRedeSocial 3
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: SubGraph Extractor 3:17
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: SubGraph Extractor 3:24
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "SubGraph Extractor": Data cell implementation 'org.knime.network.core.knime.cell.GraphCell' not found.
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Network Viewer (local) 3:20
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: Network not found in cache
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Network Viewer (local) 3:27
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: Network not found in cache
+2023-01-17 22:50:57,438 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from CONFIGURED to IDLE
+2023-01-17 22:52:55,447 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1191)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:942)
+	at org.eclipse.swt.widgets.Display.create(Display.java:926)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:753)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:744)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1525)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 22:53:28,768 : ERROR : ModalContext :  : FeatureTypeFactory : Network Creator : 3:1 : Problems during initialization of basic feature type (for extension 'org.knime.network.core.core.feature.FeatureTypeSDF'.)
+org.eclipse.core.runtime.CoreException: Plug-in "org.knime.network.base" was unable to instantiate class "org.knime.network.core.core.feature.FeatureTypeSDF".
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:206)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.registerExtensionPoints(FeatureTypeFactory.java:180)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.<init>(FeatureTypeFactory.java:131)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getInstance(FeatureTypeFactory.java:143)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicTypesMap(FeatureTypeFactory.java:355)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getBasicType(FeatureTypeFactory.java:350)
+	at org.knime.network.core.core.feature.FeatureTypeFactory.getType(FeatureTypeFactory.java:316)
+	at org.knime.network.core.core.GraphMetaData.loadFeatureInfo(GraphMetaData.java:534)
+	at org.knime.network.core.core.GraphMetaData.loadFeatureMetaData(GraphMetaData.java:525)
+	at org.knime.network.core.core.GraphMetaData.load(GraphMetaData.java:486)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec.load(GraphPortObjectSpec.java:125)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec$Serializer.loadPortObjectSpec(GraphPortObjectSpec.java:93)
+	at org.knime.network.core.knime.port.GraphPortObjectSpec$Serializer.loadPortObjectSpec(GraphPortObjectSpec.java:1)
+	at org.knime.core.node.FileNodePersistor.loadPortObject(FileNodePersistor.java:430)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:373)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:330)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8698)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8714)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8600)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8385)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8358)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8202)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:171)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.lang.NoClassDefFoundError: org/knime/chem/types/SdfValue
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<init>(FeatureTypeSDF.java:81)
+	at org.knime.network.core.core.feature.FeatureTypeSDF.<clinit>(FeatureTypeSDF.java:65)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:204)
+	... 31 more
+Caused by: java.lang.ClassNotFoundException: org.knime.chem.types.SdfValue cannot be found by org.knime.network.base_4.7.0.v202207220918
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 39 more
+2023-01-17 22:59:34,061 : ERROR : KNIME-Worker-15 :  : PythonSourceCodePanel : Python Script : 3:32 : NameError: name 'knio' is not defined
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+NameError: name 'knio' is not defined
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:686)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+NameError: name 'knio' is not defined
+
+2023-01-17 23:00:08,671 : ERROR : KNIME-Worker-19 :  : PythonSourceCodePanel : Python Script : 3:32 : KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:684)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-01-17 23:00:51,566 : ERROR : KNIME-Worker-19 :  : PythonSourceCodePanel : Python Script : 3:32 : KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:684)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-01-17 23:03:44,648 : ERROR : KNIME-Worker-20 :  : PythonSourceCodePanel : Python Script : 3:32 : AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:686)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+
+2023-01-17 23:04:31,147 : ERROR : KNIME-Worker-20 :  : PythonSourceCodePanel : Python Script : 3:32 : AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:686)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+
+2023-01-17 23:05:45,289 : ERROR : KNIME-Worker-20 :  : PythonSourceCodePanel : Python Script : 3:32 : AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:686)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+AttributeError: 'ArrowSourceTable' object has no attribute 'duplicated'
+
+2023-01-17 23:06:22,820 : ERROR : KNIME-Worker-20 :  : PythonSourceCodePanel : Python Script : 3:32 : KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got <class 'py4j.java_gateway.JavaObject'>
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got <class 'py4j.java_gateway.JavaObject'>
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:684)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-01-17 23:06:27,638 : ERROR : KNIME-Worker-23 :  : PythonSourceCodePanel : Python Script : 3:32 : KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:684)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-01-17 23:06:46,130 : ERROR : KNIME-Worker-23 :  : PythonSourceCodePanel : Python Script : 3:32 : NameError: name 'input_tables' is not defined
+org.knime.python2.kernel.PythonIOException: Executing the Python script failed: Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+NameError: name 'input_tables' is not defined
+
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:686)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: Traceback (most recent call last):
+  File "<string>", line 4, in <module>
+NameError: name 'input_tables' is not defined
+
+2023-01-17 23:07:47,577 : ERROR : KNIME-Worker-27 :  : PythonSourceCodePanel : Python Script : 3:32 : KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got None. Did you assign the output table?
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:684)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-01-17 23:11:28,212 : ERROR : KNIME-Worker-29 :  : PythonSourceCodePanel : Python Script : 3:32 : KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got <class 'pandas.core.frame.DataFrame'>
+org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' must be of type knime.api.Table or knime.api.BatchOutputTable, but got <class 'pandas.core.frame.DataFrame'>
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:684)
+	at org.knime.python3.scripting.Python3KernelBackend.beautifyPythonTraceback(Python3KernelBackend.java:663)
+	at org.knime.python3.scripting.Python3KernelBackend.executeAndCheckOutputs(Python3KernelBackend.java:594)
+	at org.knime.python2.kernel.PythonKernel.executeAndCheckOutputs(PythonKernel.java:486)
+	at org.knime.python2.kernel.PythonKernelManager.lambda$1(PythonKernelManager.java:208)
+	at org.knime.python2.kernel.PythonKernelManager$3.run(PythonKernelManager.java:225)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)

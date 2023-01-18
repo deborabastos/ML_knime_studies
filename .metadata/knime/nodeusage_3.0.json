@@ -1,16 +1,16 @@
 
 {
-    "version": "4.6.4.v202211210858",
+    "version": "4.7.0.v202212010827",
     "created": "2023-01-01 22:07",
     "nodestats": {
         "nodes": [
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.FileReaderNodeFactory#File Reader",
-                "nrexecs": 5,
-                "nrfails": 0,
-                "exectime": 2114,
-                "nrcreated": 4,
-                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+                "nrexecs": 10,
+                "nrfails": 3,
+                "exectime": 3192,
+                "nrcreated": 6,
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
             {
                 "id": "org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeFactory#Statistics",
@@ -22,11 +22,11 @@
             },
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
-                "nrexecs": 27,
+                "nrexecs": 30,
                 "nrfails": 0,
-                "exectime": 247,
-                "nrcreated": 4,
-                "successor": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value"
+                "exectime": 250,
+                "nrcreated": 6,
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
             {
                 "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
@@ -166,10 +166,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning",
-                "nrexecs": 10,
+                "nrexecs": 11,
                 "nrfails": 0,
-                "exectime": 1564,
-                "nrcreated": 5,
+                "exectime": 1727,
+                "nrcreated": 6,
                 "successor": "org.knime.base.node.preproc.columnlag.LagColumnNodeFactory#Lag Column"
             },
             {
@@ -190,11 +190,11 @@
             },
             {
                 "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner",
-                "nrexecs": 4,
+                "nrexecs": 12,
                 "nrfails": 0,
-                "exectime": 158,
-                "nrcreated": 2,
-                "successor": "org.knime.base.node.viz.plotter.line.LinePlotterNodeFactory#Line Plot (local)"
+                "exectime": 203,
+                "nrcreated": 4,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter"
             },
             {
                 "id": "org.knime.base.node.preproc.bootstrap.BootstrapNodeFactory#Bootstrap Sampling",
@@ -358,10 +358,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
-                "nrexecs": 13,
+                "nrexecs": 18,
                 "nrfails": 0,
-                "exectime": 248,
-                "nrcreated": 1,
+                "exectime": 256,
+                "nrcreated": 2,
                 "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
             },
             {
@@ -518,11 +518,11 @@
             },
             {
                 "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter",
-                "nrexecs": 2,
+                "nrexecs": 8,
                 "nrfails": 0,
-                "exectime": 40,
-                "nrcreated": 0,
-                "successor": "n/a"
+                "exectime": 59,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
             },
             {
                 "id": "org.knime.base.node.preproc.rowkey2.RowKeyNodeFactory2#RowID",
@@ -795,6 +795,86 @@
                 "exectime": 20,
                 "nrcreated": 0,
                 "successor": "n/a"
+            },
+            {
+                "id": "org.knime.network.node.io.creator.NetworkCreatorNodeFactory#Network Creator",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 41,
+                "nrcreated": 1,
+                "successor": "org.knime.network.node.inserter.object.ObjectInserterNodeFactory#Object Inserter"
+            },
+            {
+                "id": "org.knime.network.node.inserter.object.ObjectInserterNodeFactory#Object Inserter",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 34,
+                "nrcreated": 1,
+                "successor": "org.knime.network.node.inserter.feature.FeatureInserterNodeFactory#Feature Inserter"
+            },
+            {
+                "id": "org.knime.network.node.inserter.feature.FeatureInserterNodeFactory#Feature Inserter",
+                "nrexecs": 17,
+                "nrfails": 0,
+                "exectime": 58,
+                "nrcreated": 3,
+                "successor": "org.knime.network.node.converter.subgraph.SubGraphExtractorNodeFactory#SubGraph Extractor"
+            },
+            {
+                "id": "org.knime.network.node.viz.viewer.NetworkViewerNodeFactory#Network Viewer (local)",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 1480,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.network.node.analysis.network.NetworkAnalyzerNodeFactory#Network Analyzer",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 640,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row2.RowFilterNodeFactory#Row Filter (Labs)",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.filter.row2.RowFilterNodeFactory#Row Filter (Labs)"
+            },
+            {
+                "id": "org.knime.network.node.converter.subgraph.SubGraphExtractorNodeFactory#SubGraph Extractor",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 125,
+                "nrcreated": 1,
+                "successor": "org.knime.network.node.converter.cell.Row2NetworkNodeFactory#Row To Network"
+            },
+            {
+                "id": "org.knime.network.node.converter.cell.Row2NetworkNodeFactory#Row To Network",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 7,
+                "nrcreated": 1,
+                "successor": "org.knime.network.node.filter.degree.EdgeDegreeFilterNodeFactory#Edge Degree Filter"
+            },
+            {
+                "id": "org.knime.network.node.filter.degree.EdgeDegreeFilterNodeFactory#Edge Degree Filter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 21,
+                "nrcreated": 1,
+                "successor": "org.knime.network.node.viz.viewer.NetworkViewerNodeFactory#Network Viewer (local)"
+            },
+            {
+                "id": "org.knime.python3.scripting.nodes.script.PythonScriptNodeFactory#Python Script",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
             }
         ],
         "metaNodes": {
@@ -806,16 +886,16 @@
             "nrcreated": 0
         }
     },
-    "uptime": 53761,
-    "workflowsOpened": 41,
+    "uptime": 3367,
+    "workflowsOpened": 47,
     "remoteWorkflowsOpened": 5,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "webUIPerspectiveSwitches": 0,
-    "launches": 19,
+    "launches": 27,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 1021474,
+    "timeSinceLastStart": 90931,
     "crashes": 0,
     "properlyShutDown": false
 }
