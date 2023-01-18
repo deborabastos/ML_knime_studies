@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="AvailableIUsPage">
-		<item key="HideInstalledContent" value="true"/>
+		<item key="HideInstalledContent" value="false"/>
 		<item key="AvailableViewType" value="1"/>
 		<item key="ShowLatestVersionsOnly" value="true"/>
 		<item key="FilterOnEnv" value="false"/>

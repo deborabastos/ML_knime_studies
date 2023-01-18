@@ -861,3 +861,32 @@ org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' mus
 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
 	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
 	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-01-17 23:27:10,028 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2023-01-17 23:29:40,131 : WARN  : main :  : Node : Strings To Document : 3:2 : Name of selected title column can't be empty.
+2023-01-17 23:36:56,356 : WARN  : main :  : Node : Tagged Document Viewer : 3:5 : Auto guessing: Using column 'Document'.
+2023-01-17 23:41:31,783 : WARN  : main :  : Node : N Chars Filter : 3:7 : Selected document column "Preprocessed Document" could not be found in the input data table.
+2023-01-17 23:44:41,901 : WARN  : main :  : Node : NGram Creator : 3:10 : Auto guessing: Using column 'Document' as DocumentValue column.
+2023-01-17 23:48:37,210 : WARN  : main :  : Node : Tag Cloud : 3:11 : There have to be at least 1 columns containing TermCells !
+2023-01-17 23:49:06,369 : WARN  : main :  : Node : Tag Cloud : 3:11 : Selected tag column '' does not exist!
+2023-01-17 23:50:01,182 : WARN  : KNIME-Worker-91-Tag Cloud 3:11 :  : Node : Tag Cloud : 3:11 : Only the first 50 tags are displayed.
+2023-01-17 23:52:16,386 : WARN  : main :  : Node : Bag Of Words Creator : 3:13 : Auto guessing: Using column 'Document' as DocumentValue column.
+2023-01-17 23:55:40,439 : WARN  : main :  : Node : Term To String : 3:14 : Auto guessing: Using column 'Term' as TermValue column.
+2023-01-17 23:56:28,374 : WARN  : main :  : Node : GroupBy : 3:15 : No grouping column included. Aggregate complete table.
+2023-01-17 23:56:28,374 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2023-01-17 23:56:28,375 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2023-01-17 23:56:28,402 : WARN  : main :  : Node : GroupBy : 3:15 : Please select at least one group or aggregation column
+2023-01-17 23:58:48,690 : WARN  : main :  : Node : Row Filter : 3:16 : No row filter specified
+2023-01-18 00:05:06,453 : WARN  : main :  : Node : TF : 3:18 : Auto guessing: Using column 'Document' as DocumentValue column.
+2023-01-18 00:07:25,039 : WARN  : main :  : Node : Document Vector : 3:19 : Auto guessing: Using column 'Document' as DocumentValue column.
+2023-01-18 00:09:51,507 : WARN  : main :  : Node : Category To Class : 3:20 : Auto guessing: Using column 'Document' as DocumentValue column.
+2023-01-18 00:11:59,011 : WARN  : main :  : Node : Partitioning : 3:21 : No sampling method selected
+2023-01-18 00:15:14,435 : WARN  : main :  : Node : POS Tagger : 3:25 : Auto guessing: Using column 'Document' as DocumentValue column.
+2023-01-18 00:15:14,437 : WARN  : main :  : Node : POS Tagger : 3:25 : Auto select: Using  'OpenNLP SimpleTokenizer' as word tokenizer based on incoming documents.
+2023-01-18 00:16:10,449 : WARN  : main :  : Node : POS Tagger : 3:25 : Tokenization of input documents (OpenNLP SimpleTokenizer) differs to selected tokenization (OpenNLP WhitespaceTokenizer).
+2023-01-18 00:16:21,317 : WARN  : main :  : Node : Tagged Document Viewer : 3:26 : Auto guessing: Using column 'Document'.
+2023-01-18 00:20:25,129 : WARN  : KNIME-Worker-134-Stanford Lemmatizer 3:27 :  : Node : Stanford Lemmatizer : 3:27 : Warning: Some terms have no POS tags.
+2023-01-18 00:20:58,271 : WARN  : main :  : Node : Decision Tree Learner : 3:22 : Guessing target column: "Document class".
+2023-01-18 00:20:58,277 : WARN  : main :  : Node : Scorer : 3:24 : No columns selected yet.
+2023-01-18 00:21:00,348 : WARN  : KNIME-Worker-148-Partitioning 3:21 :  : Node : Scorer : 3:24 : No columns selected yet.
+2023-01-18 00:21:06,924 : WARN  : KNIME-Worker-138-Decision Tree Learner 3:22 :  : Node : Scorer : 3:24 : No columns selected yet.
+2023-01-18 00:21:12,851 : WARN  : KNIME-Worker-136-Decision Tree Predictor 3:23 :  : Node : Scorer : 3:24 : No columns selected yet.
