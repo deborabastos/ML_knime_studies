@@ -991,3 +991,15 @@ Caused by: java.lang.ClassNotFoundException: org.knime.chem.types.SdfValue canno
 	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
 	... 39 more
+2023-01-19 22:53:18,034 : WARN  : ModalContext :  : Node : StanfordNLP NE Scorer : 3:63 : Auto guessing: Using column 'Document' as DocumentValue column.
+2023-01-19 22:53:18,036 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-01-19 22:53:18,036 : WARN  : ModalContext :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-01-19 22:56:21,414 : WARN  : main :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-01-19 22:56:21,419 : WARN  : main :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-01-19 22:56:28,493 : WARN  : main :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-01-19 22:56:28,494 : WARN  : main :  : Node : GroupBy : 3:26 : No aggregation column defined
+2023-01-19 23:13:56,551 : WARN  : ModalContext :  : DataTableSpec : Distance Matrix Calculate : 4:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 23:20:32,443 : WARN  : main :  : Node : POS Tagger : 3:25 : Tokenization of input documents (OpenNLP SimpleTokenizer) differs to selected tokenization (OpenNLP WhitespaceTokenizer).
+2023-01-19 23:20:32,444 : WARN  : main :  : Node : POS Tagger : 3:25 : Tokenization of input documents (OpenNLP SimpleTokenizer) differs to selected tokenization (OpenNLP WhitespaceTokenizer).
+2023-01-19 23:20:45,829 : WARN  : ModalContext :  : DataTableSpec : Distance Matrix Calculate : 4:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 23:23:11,369 : WARN  : main :  : Node : Strings To Document : 3:3 : Column 'Unnamed: 24' does not exist in input table or does not contain a String value.

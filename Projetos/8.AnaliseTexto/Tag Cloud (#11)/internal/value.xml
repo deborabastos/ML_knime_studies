@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewValue">
+    <config key="selection"/>
+    <entry key="title" type="xstring" value=""/>
+    <entry key="subtitle" type="xstring" value=""/>
+    <entry key="minFontSize" type="xfloat" value="10.0"/>
+    <entry key="maxFontSize" type="xfloat" value="100.0"/>
+    <entry key="fontScaleType" type="xstring" value="linear"/>
+    <entry key="spiralType" type="xstring" value="rectangular"/>
+    <entry key="numOrientations" type="xint" value="4"/>
+    <entry key="startAngle" type="xint" value="-90"/>
+    <entry key="endAngle" type="xint" value="90"/>
+    <entry key="publishSelection" type="xboolean" value="true"/>
+    <entry key="subscribeSelection" type="xboolean" value="true"/>
+    <entry key="defaultShowSelectedOnly" type="xboolean" value="false"/>
+    <entry key="subscribeFilter" type="xboolean" value="true"/>
+    <entry key="svgFromView" type="xstring" isnull="true" value=""/>
+</config>

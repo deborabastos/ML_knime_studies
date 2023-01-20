@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+    <config key="data">
+        <entry key="numSettings" type="xint" value="50"/>
+        <config key="0">
+            <entry key="id" type="xstring" value="tag_23"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="22"/>
+            </config>
+            <entry key="text" type="xstring" value="estado minas"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="1250.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="1">
+            <entry key="id" type="xstring" value="tag_9"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="8"/>
+            </config>
+            <entry key="text" type="xstring" value="minas gerais"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="1108.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="2">
+            <entry key="id" type="xstring" value="tag_331"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="330"/>
+            </config>
+            <entry key="text" type="xstring" value="calamidade financeira"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="968.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="3">
+            <entry key="id" type="xstring" value="tag_24"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="23"/>
+            </config>
+            <entry key="text" type="xstring" value="minas https"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="887.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="4">
+            <entry key="id" type="xstring" value="tag_113"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="112"/>
+            </config>
+            <entry key="text" type="xstring" value="compra helicópteros"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="815.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="5">
+            <entry key="id" type="xstring" value="tag_624"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="623"/>
+            </config>
+            <entry key="text" type="xstring" value="helicópteros https"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="762.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="6">
+            <entry key="id" type="xstring" value="tag_623"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="622"/>
+            </config>
+            <entry key="text" type="xstring" value="governo compra"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="576.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="7">
+            <entry key="id" type="xstring" value="tag_510"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="509"/>
+            </config>
+            <entry key="text" type="xstring" value="febre amarela"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="549.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="8">
+            <entry key="id" type="xstring" value="tag_50"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="49"/>
+            </config>
+            <entry key="text" type="xstring" value="governo minas"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="473.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="9">
+            <entry key="id" type="xstring" value="tag_622"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="621"/>
+            </config>
+            <entry key="text" type="xstring" value="financeira governo"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="449.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="10">
+            <entry key="id" type="xstring" value="tag_3880"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="3879"/>
+            </config>
+            <entry key="text" type="xstring" value="cara pau"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="364.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="11">
+            <entry key="id" type="xstring" value="tag_621"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="620"/>
+            </config>
+            <entry key="text" type="xstring" value="mesmo calamidade"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="362.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="12">
+            <entry key="id" type="xstring" value="tag_15406"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="15405"/>
+            </config>
+            <entry key="text" type="xstring" value="tráfico drogas"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="353.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="13">
+            <entry key="id" type="xstring" value="tag_7080"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="7079"/>
+            </config>
+            <entry key="text" type="xstring" value="canalhice maiores"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="307.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="14">
+            <entry key="id" type="xstring" value="tag_7078"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="7077"/>
+            </config>
+            <entry key="text" type="xstring" value="helicópteros cara"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="307.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="15">
+            <entry key="id" type="xstring" value="tag_7079"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="7078"/>
+            </config>
+            <entry key="text" type="xstring" value="pau canalhice"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="307.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="16">
+            <entry key="id" type="xstring" value="tag_333"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="332"/>
+            </config>
+            <entry key="text" type="xstring" value="avisa justiça"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="305.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="17">
+            <entry key="id" type="xstring" value="tag_9702"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="9701"/>
+            </config>
+            <entry key="text" type="xstring" value="anapaulavolei helicópteros"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="300.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="18">
+            <entry key="id" type="xstring" value="tag_9703"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="9702"/>
+            </config>
+            <entry key="text" type="xstring" value="maiores calamidade"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="300.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="19">
+            <entry key="id" type="xstring" value="tag_9705"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="9704"/>
+            </config>
+            <entry key="text" type="xstring" value="vive estado"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="300.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="20">
+            <entry key="id" type="xstring" value="tag_9704"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="9703"/>
+            </config>
+            <entry key="text" type="xstring" value="financeira vive"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="300.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="21">
+            <entry key="id" type="xstring" value="tag_5"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="4"/>
+            </config>
+            <entry key="text" type="xstring" value="governador valadares"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="297.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="22">
+            <entry key="id" type="xstring" value="tag_186"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="185"/>
+            </config>
+            <entry key="text" type="xstring" value="fernando pimentel"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="271.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="23">
+            <entry key="id" type="xstring" value="tag_758"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="757"/>
+            </config>
+            <entry key="text" type="xstring" value="justiça governo"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="270.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="24">
+            <entry key="id" type="xstring" value="tag_15374"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="15373"/>
+            </config>
+            <entry key="text" type="xstring" value="presídio privado"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="266.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="25">
+            <entry key="id" type="xstring" value="tag_761"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="760"/>
+            </config>
+            <entry key="text" type="xstring" value="conta judicial"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="264.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="26">
+            <entry key="id" type="xstring" value="tag_760"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="759"/>
+            </config>
+            <entry key="text" type="xstring" value="recursos conta"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="264.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="27">
+            <entry key="id" type="xstring" value="tag_3500"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="3499"/>
+            </config>
+            <entry key="text" type="xstring" value="juiz fora"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="260.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="28">
+            <entry key="id" type="xstring" value="tag_15375"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="15374"/>
+            </config>
+            <entry key="text" type="xstring" value="privado minas"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="258.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="29">
+            <entry key="id" type="xstring" value="tag_15376"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="15375"/>
+            </config>
+            <entry key="text" type="xstring" value="gerais rebeliões"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="256.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="30">
+            <entry key="id" type="xstring" value="tag_759"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="758"/>
+            </config>
+            <entry key="text" type="xstring" value="governo recursos"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="246.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="31">
+            <entry key="id" type="xstring" value="tag_762"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="761"/>
+            </config>
+            <entry key="text" type="xstring" value="judicial https"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="232.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="32">
+            <entry key="id" type="xstring" value="tag_22"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="21"/>
+            </config>
+            <entry key="text" type="xstring" value="politica estado"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="223.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="33">
+            <entry key="id" type="xstring" value="tag_5888"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="5887"/>
+            </config>
+            <entry key="text" type="xstring" value="calamidade governo"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="208.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="34">
+            <entry key="id" type="xstring" value="tag_5886"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="5885"/>
+            </config>
+            <entry key="text" type="xstring" value="custaram milhões"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="203.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="35">
+            <entry key="id" type="xstring" value="tag_5887"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="5886"/>
+            </config>
+            <entry key="text" type="xstring" value="milhões mesmo"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="203.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="36">
+            <entry key="id" type="xstring" value="tag_511"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="510"/>
+            </config>
+            <entry key="text" type="xstring" value="amarela https"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="189.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="37">
+            <entry key="id" type="xstring" value="tag_3112"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="3111"/>
+            </config>
+            <entry key="text" type="xstring" value="via nvey"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="184.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="38">
+            <entry key="id" type="xstring" value="tag_17567"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="17566"/>
+            </config>
+            <entry key="text" type="xstring" value="presídio minas"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="180.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="39">
+            <entry key="id" type="xstring" value="tag_3501"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="3500"/>
+            </config>
+            <entry key="text" type="xstring" value="fora https"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="171.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="40">
+            <entry key="id" type="xstring" value="tag_17569"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="17568"/>
+            </config>
+            <entry key="text" type="xstring" value="adota modelo"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="168.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="41">
+            <entry key="id" type="xstring" value="tag_17568"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="17567"/>
+            </config>
+            <entry key="text" type="xstring" value="minas adota"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="167.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="42">
+            <entry key="id" type="xstring" value="tag_17572"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="17571"/>
+            </config>
+            <entry key="text" type="xstring" value="recuperar presos"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="163.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="43">
+            <entry key="id" type="xstring" value="tag_17571"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="17570"/>
+            </config>
+            <entry key="text" type="xstring" value="consegue recuperar"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="163.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="44">
+            <entry key="id" type="xstring" value="tag_17570"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="17569"/>
+            </config>
+            <entry key="text" type="xstring" value="modelo consegue"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="160.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="45">
+            <entry key="id" type="xstring" value="tag_10"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="9"/>
+            </config>
+            <entry key="text" type="xstring" value="gerais https"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="159.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="46">
+            <entry key="id" type="xstring" value="tag_16323"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="16322"/>
+            </config>
+            <entry key="text" type="xstring" value="presos https"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="155.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="47">
+            <entry key="id" type="xstring" value="tag_152"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="151"/>
+            </config>
+            <entry key="text" type="xstring" value="gerais estado"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="149.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="48">
+            <entry key="id" type="xstring" value="tag_852"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="851"/>
+            </config>
+            <entry key="text" type="xstring" value="timbeta globo"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="130.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="49">
+            <entry key="id" type="xstring" value="tag_8059"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="8058"/>
+            </config>
+            <entry key="text" type="xstring" value="polícia civil"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="126.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+    </config>
+    <entry key="tableID" type="xstring" value="e2c72454-3ac4-4cd0-b012-00b968c655a6"/>
+    <config key="subscriptionFilterIds">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="warningMessages">
+        <entry key="numSettings" type="xint" value="1"/>
+        <entry key="key_0" type="xstring" value="knime_clipped_rows"/>
+        <entry key="value_0" type="xstring" value="Only the first 50 tags are displayed."/>
+    </config>
+    <entry key="imageGeneration" type="xboolean" value="false"/>
+    <entry key="warningsInView" type="xboolean" value="true"/>
+    <entry key="resizeToWindow" type="xboolean" value="true"/>
+    <entry key="imageWidth" type="xint" value="800"/>
+    <entry key="imageHeight" type="xint" value="600"/>
+    <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+    <entry key="displayRefreshButton" type="xboolean" value="true"/>
+    <entry key="disableAnimations" type="xboolean" value="false"/>
+    <entry key="colorProp" type="xboolean" value="false"/>
+    <entry key="font" type="xstring" value="Impact"/>
+    <entry key="fontBold" type="xboolean" value="false"/>
+    <entry key="enableViewConfiguration" type="xboolean" value="true"/>
+    <entry key="enableTitleChange" type="xboolean" value="true"/>
+    <entry key="enableSubtitleChange" type="xboolean" value="true"/>
+    <entry key="enableFontSizeChange" type="xboolean" value="true"/>
+    <entry key="enableScaleTypeChange" type="xboolean" value="true"/>
+    <entry key="enableSpiralTypeChange" type="xboolean" value="true"/>
+    <entry key="enableNumOrientationsChange" type="xboolean" value="true"/>
+    <entry key="enableAnglesChange" type="xboolean" value="true"/>
+    <entry key="enableSelection" type="xboolean" value="true"/>
+    <entry key="selectionColor" type="xstring" value="#333333"/>
+    <entry key="enableShowSelectedOnly" type="xboolean" value="true"/>
+    <entry key="displayClearSelectionButton" type="xboolean" value="true"/>
+</config>
