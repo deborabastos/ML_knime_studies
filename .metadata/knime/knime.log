@@ -933,3 +933,9 @@ org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' mus
 2023-01-19 22:30:25,495 : WARN  : KNIME-Worker-251-Color Manager 3:28 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
 2023-01-19 22:31:49,533 : WARN  : KNIME-Worker-252-Distance Matrix Calculate 3:29 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
 2023-01-19 22:46:36,355 : WARN  : main :  : Node : POS Tagger : 3:25 : Tokenization of input documents (OpenNLP SimpleTokenizer) differs to selected tokenization (OpenNLP WhitespaceTokenizer).
+2023-01-19 22:47:13,626 : WARN  : KNIME-Worker-265-Strings To Document 3:2 :  : Node : POS Tagger : 3:25 : Tokenization of input documents (OpenNLP SimpleTokenizer) differs to selected tokenization (OpenNLP WhitespaceTokenizer).
+2023-01-19 22:47:13,628 : WARN  : KNIME-Worker-280-Column Filter 3:3 :  : Node : POS Tagger : 3:25 : Tokenization of input documents (OpenNLP SimpleTokenizer) differs to selected tokenization (OpenNLP WhitespaceTokenizer).
+2023-01-19 22:47:14,508 : WARN  : KNIME-Worker-279-Tag Cloud 3:11 :  : Node : Tag Cloud : 3:11 : Only the first 50 tags are displayed.
+2023-01-19 22:47:23,570 : WARN  : KNIME-Worker-278-Document Vector 3:19 :  : Node : Color Manager : 3:28 : Column "Document class" has no nominal values set: execute predecessor or add Binner.
+2023-01-19 22:47:23,582 : WARN  : KNIME-Worker-265-Category To Class 3:20 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 22:47:34,692 : WARN  : KNIME-Worker-273-Stanford Lemmatizer 3:27 :  : Node : Stanford Lemmatizer : 3:27 : Warning: Some terms have no POS tags.
