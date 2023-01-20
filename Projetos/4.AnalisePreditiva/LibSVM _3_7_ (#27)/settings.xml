@@ -27,7 +27,11 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Node can't be executed - Node &quot;LibSVM (3.7)&quot; not available from extension &quot;KNIME Weka Data Mining Integration (3.7)&quot; (provided by &quot;KNIME AG, Zurich, Switzerland&quot;; plugin &quot;org.knime.ext.weka_3.7&quot; is not installed)%%00010Status: DataLoadError: MISSING LibSVM (3.7) 5:27%%00010  Status: DataLoadError: Unable to load port content for node &quot;MISSING LibSVM (3.7)&quot;: Invalid spec class &quot;org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec&quot;%%00010  Status: DataLoadError: State has changed from EXECUTED to IDLE"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.ext.weka37.classifier.WekaClassifierNodeFactory"/>
     <entry key="node-name" type="xstring" value="LibSVM (3.7)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
@@ -43,22 +47,17 @@
         <entry key="weka-version" type="xstring" value="3.7"/>
         <entry key="weka_nodes_version" type="xstring" value="V112015"/>
     </config>
-    <entry key="name" type="xstring" value="LibSVM (3.7)"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="name" type="xstring" value="MISSING LibSVM (3.7)"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.ext.weka37.ports.WekaClassifierModelFileStorePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="LibSVM"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
-        <entry key="file_store_location" type="xstring" value="filestore"/>
-        <entry key="file_store_id" type="xstring" value="7dce000a-a567-4445-aaa0-387cb6a7d5b6"/>
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
