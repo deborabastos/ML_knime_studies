@@ -20,7 +20,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="DocumentInputColumn" type="xstring" value="Preprocessed Document"/>
+        <entry key="DocumentInputColumn" type="xstring" value="Document"/>
         <config key="DNGramOutput_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -38,12 +38,12 @@
         <entry key="ChunkSize" type="xint" value="500"/>
     </config>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="Palabras que %%00010mais aparecem juntas"/>
+        <entry key="text" type="xstring" value="Palabras que %%00010mais aparecem juntas%%00010(bigramas)"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
         <entry key="x-coordinate" type="xint" value="924"/>
-        <entry key="y-coordinate" type="xint" value="99"/>
+        <entry key="y-coordinate" type="xint" value="139"/>
         <entry key="width" type="xint" value="113"/>
-        <entry key="height" type="xint" value="26"/>
+        <entry key="height" type="xint" value="39"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
         <entry key="borderSize" type="xint" value="0"/>
         <entry key="borderColor" type="xint" value="16777215"/>
@@ -52,7 +52,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.misc.ngram.NGramNodeFactory"/>
     <entry key="node-name" type="xstring" value="NGram Creator"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
@@ -65,19 +65,16 @@
     <entry key="node-feature-version" type="xstring" value="4.7.0.v202211181006"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="NGram Creator"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 20464, Cols: 4"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3fbdb7e7-ba87-46d4-86b5-cb34d51ab2e9"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

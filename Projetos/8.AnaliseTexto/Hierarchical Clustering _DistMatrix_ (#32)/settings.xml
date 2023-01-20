@@ -6,18 +6,16 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="method" type="xstring" value="Relative"/>
-        <entry key="samplingMethod" type="xstring" value="Random"/>
-        <entry key="fraction" type="xdouble" value="0.8"/>
-        <entry key="count" type="xint" value="100"/>
-        <entry key="random_seed" type="xstring" value="0"/>
-        <entry key="class_column" type="xstring" value="Document class"/>
+        <entry key="linkageType" type="xstring" value="Complete Linkage"/>
+        <entry key="useCache" type="xboolean" value="false"/>
+        <entry key="ignoreMissingValues" type="xboolean" value="true"/>
+        <entry key="matrixColumn" type="xstring" value="Distance"/>
     </config>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="Divide dados%%00010"/>
+        <entry key="text" type="xstring" value="Roda modelo%%00010de clusterização"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
-        <entry key="x-coordinate" type="xint" value="1347"/>
-        <entry key="y-coordinate" type="xint" value="477"/>
+        <entry key="x-coordinate" type="xint" value="1747"/>
+        <entry key="y-coordinate" type="xint" value="677"/>
         <entry key="width" type="xint" value="104"/>
         <entry key="height" type="xint" value="26"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
@@ -29,27 +27,23 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
-    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.partition.PartitionNodeFactory"/>
-    <entry key="node-name" type="xstring" value="Partitioning"/>
-    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
-    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.mine.cluster.hierarchical.ParHieClusterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Hierarchical Clustering (DistMatrix)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Distance Matrix Extension"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.distmatrix"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211291414"/>
-    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
-    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
-    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211291442"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211082354"/>
+    <entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+    <entry key="node-feature-version" type="xstring" value="0.0.0"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="Partitioning"/>
+    <entry key="name" type="xstring" value="Hierarchical Clustering (DistMatrix)"/>
     <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-        </config>
-        <config key="port_2">
-            <entry key="index" type="xint" value="2"/>
             <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>

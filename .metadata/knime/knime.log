@@ -890,3 +890,46 @@ org.knime.python2.kernel.PythonIOException: KnimeUserError: Output table '0' mus
 2023-01-18 00:21:00,348 : WARN  : KNIME-Worker-148-Partitioning 3:21 :  : Node : Scorer : 3:24 : No columns selected yet.
 2023-01-18 00:21:06,924 : WARN  : KNIME-Worker-138-Decision Tree Learner 3:22 :  : Node : Scorer : 3:24 : No columns selected yet.
 2023-01-18 00:21:12,851 : WARN  : KNIME-Worker-136-Decision Tree Predictor 3:23 :  : Node : Scorer : 3:24 : No columns selected yet.
+2023-01-19 21:42:43,367 : WARN  : main :  : Node : Color Manager : 3:28 : Selected column "Document class" with default nominal color mapping.
+2023-01-19 21:43:24,700 : WARN  : main :  : Node : Distance Matrix Calculate : 3:29 : Distance not set.
+2023-01-19 21:44:05,500 : WARN  : main :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 21:44:07,637 : WARN  : KNIME-Worker-154-Color Manager 3:28 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 21:44:51,922 : WARN  : main :  : Node : Partitioning : 3:31 : No sampling method selected
+2023-01-19 21:45:32,536 : WARN  : KNIME-Worker-155-Distance Matrix Calculate 3:29 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 21:45:32,553 : WARN  : KNIME-Worker-155-Distance Matrix Calculate 3:29 :  : Node : Partitioning : 3:31 : No sampling method selected
+2023-01-19 21:45:33,790 : WARN  : main :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 21:45:33,790 : WARN  : main :  : Node : Partitioning : 3:31 : No sampling method selected
+2023-01-19 21:45:38,982 : WARN  : KNIME-Worker-166-Color Manager 3:28 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 21:45:38,983 : WARN  : KNIME-Worker-166-Color Manager 3:28 :  : Node : Partitioning : 3:31 : No sampling method selected
+2023-01-19 21:47:06,261 : WARN  : KNIME-Worker-170-Distance Matrix Calculate 3:29 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 21:47:06,274 : WARN  : KNIME-Worker-170-Distance Matrix Calculate 3:29 :  : Node : Partitioning : 3:31 : No sampling method selected
+2023-01-19 21:47:37,918 : WARN  : main :  : Node : Partitioning : 3:31 : No sampling method selected
+2023-01-19 21:49:57,808 : WARN  : main :  : Node : Hierarchical Clustering (DistMatrix) : 3:32 : Configuration is missing.
+2023-01-19 22:09:24,783 : WARN  : main :  : Node : Stop Word Filter : 3:9 : Selected document column "Preprocessed Document" could not be found in the input data table.
+2023-01-19 22:09:27,646 : WARN  : KNIME-Worker-189-Case Converter 3:8 :  : Node : Stop Word Filter : 3:9 : Selected document column "Preprocessed Document" could not be found in the input data table.
+2023-01-19 22:10:17,635 : WARN  : main :  : Node : NGram Creator : 3:10 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:10:17,636 : WARN  : main :  : Node : Snowball Stemmer : 3:12 : Selected document column "Preprocessed Document" could not be found in the input data table.
+2023-01-19 22:10:45,258 : WARN  : main :  : Node : NGram Creator : 3:10 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:10:45,260 : WARN  : main :  : Node : Snowball Stemmer : 3:12 : Selected document column "Preprocessed Document" could not be found in the input data table.
+2023-01-19 22:10:47,402 : WARN  : KNIME-Worker-196-Stop Word Filter 3:9 :  : Node : NGram Creator : 3:10 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:10:47,402 : WARN  : KNIME-Worker-196-Stop Word Filter 3:9 :  : Node : Snowball Stemmer : 3:12 : Selected document column "Preprocessed Document" could not be found in the input data table.
+2023-01-19 22:14:02,458 : WARN  : KNIME-Worker-208-Tag Cloud 3:11 :  : Node : Tag Cloud : 3:11 : Only the first 50 tags are displayed.
+2023-01-19 22:15:02,614 : WARN  : KNIME-Worker-223-Tag Cloud 3:11 :  : Node : Tag Cloud : 3:11 : Only the first 50 tags are displayed.
+2023-01-19 22:16:20,069 : WARN  : main :  : Node : Bag Of Words Creator : 3:13 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:16:22,196 : WARN  : KNIME-Worker-224-Snowball Stemmer 3:12 :  : Node : Bag Of Words Creator : 3:13 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:16:51,555 : WARN  : main :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:16:58,278 : WARN  : KNIME-Worker-237-Bag Of Words Creator 3:13 :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:18:43,880 : WARN  : KNIME-Worker-240-Term To String 3:14 :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:19:30,056 : WARN  : main :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:20:53,915 : WARN  : main :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:22:52,554 : WARN  : main :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:22:54,963 : WARN  : KNIME-Worker-243-Reference Row Filter 3:17 :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:23:46,778 : WARN  : main :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:23:51,866 : WARN  : KNIME-Worker-244-TF 3:18 :  : Node : Document Vector : 3:19 : DocumentValue column 'Preprocessed Document' could not be found in data table.
+2023-01-19 22:24:57,643 : WARN  : KNIME-Worker-245-Document Vector 3:19 :  : Node : Color Manager : 3:28 : Column "Document class" has no nominal values set: execute predecessor or add Binner.
+2023-01-19 22:26:07,265 : WARN  : KNIME-Worker-246-Category To Class 3:20 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 22:30:16,991 : WARN  : main :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 22:30:23,398 : WARN  : main :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 22:30:25,495 : WARN  : KNIME-Worker-251-Color Manager 3:28 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 22:31:49,533 : WARN  : KNIME-Worker-252-Distance Matrix Calculate 3:29 :  : DataTableSpec : Distance Matrix Calculate : 3:29 : DataColumnSpec already contains a color handler, ignoring color handler from second spec.
+2023-01-19 22:46:36,355 : WARN  : main :  : Node : POS Tagger : 3:25 : Tokenization of input documents (OpenNLP SimpleTokenizer) differs to selected tokenization (OpenNLP WhitespaceTokenizer).
