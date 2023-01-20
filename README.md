@@ -8,4 +8,4 @@
 - [Análise Série Temporal](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/6.AnaliseSerieTemporal)
 - [Análise de Rede Social](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/7.AnaliseRedeSocial)
 - [Análise de Texto](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/8.AnaliseTexto)
-- [Análise de Sentimentos](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/9.AnaliseSentimentos)
+- [Análise de Sentimentos - Filmes](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/9.AnaliseSentimentos)
