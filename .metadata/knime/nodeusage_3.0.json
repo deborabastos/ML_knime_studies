@@ -22,9 +22,9 @@
             },
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
-                "nrexecs": 40,
+                "nrexecs": 42,
                 "nrfails": 0,
-                "exectime": 257,
+                "exectime": 270,
                 "nrcreated": 10,
                 "successor": "org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#LibSVM (3.7)"
             },
@@ -166,9 +166,9 @@
             },
             {
                 "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning",
-                "nrexecs": 21,
+                "nrexecs": 22,
                 "nrfails": 0,
-                "exectime": 4357,
+                "exectime": 4495,
                 "nrcreated": 8,
                 "successor": "org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#ZeroR (3.7)"
             },
@@ -214,33 +214,33 @@
             },
             {
                 "id": "org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#ZeroR (3.7)",
-                "nrexecs": 3,
+                "nrexecs": 4,
                 "nrfails": 0,
-                "exectime": 983,
+                "exectime": 1285,
                 "nrcreated": 3,
                 "successor": "org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory#Weka Predictor (3.7)"
             },
             {
                 "id": "org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory#Weka Predictor (3.7)",
-                "nrexecs": 8,
+                "nrexecs": 10,
                 "nrfails": 0,
-                "exectime": 41063,
+                "exectime": 41602,
                 "nrcreated": 3,
                 "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer"
             },
             {
                 "id": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer",
-                "nrexecs": 20,
+                "nrexecs": 23,
                 "nrfails": 0,
-                "exectime": 303,
+                "exectime": 307,
                 "nrcreated": 4,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.base.node.mine.decisiontree2.learner2.DecisionTreeLearnerNodeFactory3#Decision Tree Learner",
-                "nrexecs": 8,
+                "nrexecs": 9,
                 "nrfails": 0,
-                "exectime": 13080,
+                "exectime": 13422,
                 "nrcreated": 3,
                 "successor": "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor"
             },
@@ -254,17 +254,17 @@
             },
             {
                 "id": "org.knime.base.node.mine.decisiontree2.predictor2.DecTreePredictorNodeFactory#Decision Tree Predictor",
-                "nrexecs": 8,
+                "nrexecs": 9,
                 "nrfails": 0,
-                "exectime": 1619,
+                "exectime": 1677,
                 "nrcreated": 3,
                 "successor": "org.knime.base.node.mine.scorer.accuracy.AccuracyScorer2NodeFactory#Scorer"
             },
             {
                 "id": "org.knime.ext.weka37.classifier.WekaClassifierNodeFactory#LibSVM (3.7)",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 195077,
+                "exectime": 195771,
                 "nrcreated": 2,
                 "successor": "org.knime.ext.weka37.predictor3.WekaPredictorNodeFactory#Weka Predictor (3.7)"
             },
@@ -358,9 +358,9 @@
             },
             {
                 "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
-                "nrexecs": 26,
+                "nrexecs": 27,
                 "nrfails": 0,
-                "exectime": 407,
+                "exectime": 430,
                 "nrcreated": 5,
                 "successor": "org.knime.base.node.preproc.filter.rowref.RowFilterRefNodeFactory#Reference Row Filter"
             },
@@ -1094,7 +1094,7 @@
             "nrcreated": 0
         }
     },
-    "uptime": 51248,
+    "uptime": 81132,
     "workflowsOpened": 62,
     "remoteWorkflowsOpened": 6,
     "columnarStorageWorkflowsOpened": 0,
@@ -1103,7 +1103,7 @@
     "webUIPerspectiveSwitches": 0,
     "launches": 31,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 1588707,
+    "timeSinceLastStart": 2515102,
     "crashes": 2,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }

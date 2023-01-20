@@ -29,27 +29,23 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Node can't be executed - Node &quot;ZeroR (3.7)&quot; not available from extension &quot;KNIME Weka Data Mining Integration (3.7)&quot; (provided by &quot;KNIME AG, Zurich, Switzerland&quot;; plugin &quot;org.knime.ext.weka_3.7&quot; is not installed)%%00010Status: DataLoadError: MISSING ZeroR (3.7) 5:20%%00010  Status: DataLoadError: Unable to load port content for node &quot;MISSING ZeroR (3.7)&quot;: Invalid spec class &quot;org.knime.ext.weka37.ports.WekaClassifierModelPortObjectSpec&quot;%%00010  Status: DataLoadError: State has changed from EXECUTED to IDLE"/>
-    </config>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.ext.weka37.classifier.WekaClassifierNodeFactory"/>
     <entry key="node-name" type="xstring" value="ZeroR (3.7)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME WEKA nodes (3.7)"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.weka_3.7"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="4.6.0.v202202280958"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202206271102"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Weka Data Mining Integration (3.7)"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.weka_3.7.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.6.0.v202202280958"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.0.v202206271102"/>
     <config key="factory_settings">
         <entry key="weka-class" type="xstring" value="weka.classifiers.rules.ZeroR"/>
         <entry key="weka-version" type="xstring" value="3.7"/>
         <entry key="weka_nodes_version" type="xstring" value="V112015"/>
     </config>
-    <entry key="name" type="xstring" value="MISSING ZeroR (3.7)"/>
+    <entry key="name" type="xstring" value="ZeroR (3.7)"/>
     <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
