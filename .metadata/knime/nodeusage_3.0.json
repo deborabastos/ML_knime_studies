@@ -102,9 +102,9 @@
             },
             {
                 "id": "org.knime.base.node.viz.plotter.box.BoxPlotNodeFactory#Box Plot (local)",
-                "nrexecs": 8,
+                "nrexecs": 9,
                 "nrfails": 0,
-                "exectime": 2274,
+                "exectime": 2284,
                 "nrcreated": 4,
                 "successor": "n/a"
             },
@@ -126,9 +126,9 @@
             },
             {
                 "id": "org.knime.base.node.preproc.correlation.compute2.CorrelationCompute2NodeFactory#Linear Correlation",
-                "nrexecs": 5,
+                "nrexecs": 6,
                 "nrfails": 0,
-                "exectime": 1110,
+                "exectime": 1114,
                 "nrcreated": 4,
                 "successor": "n/a"
             },
@@ -1106,7 +1106,7 @@
                 "nrfails": 0,
                 "exectime": 8,
                 "nrcreated": 2,
-                "successor": "org.knime.base.node.preproc.split2.SplitNodeFactory2#Column Splitter"
+                "successor": "org.knime.base.node.viz.plotter.box.BoxPlotNodeFactory#Box Plot (local)"
             },
             {
                 "id": "org.knime.base.node.preproc.cellreplace.CellReplacerNodeFactory#Cell Replacer",
@@ -1118,9 +1118,9 @@
             },
             {
                 "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory#Excel Writer",
-                "nrexecs": 2,
+                "nrexecs": 3,
                 "nrfails": 3,
-                "exectime": 178,
+                "exectime": 197,
                 "nrcreated": 1,
                 "successor": "n/a"
             }
@@ -1134,7 +1134,7 @@
             "nrcreated": 0
         }
     },
-    "uptime": 133856,
+    "uptime": 140542,
     "workflowsOpened": 73,
     "remoteWorkflowsOpened": 6,
     "columnarStorageWorkflowsOpened": 0,
@@ -1143,7 +1143,7 @@
     "webUIPerspectiveSwitches": 0,
     "launches": 34,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 4551115,
+    "timeSinceLastStart": 4778443,
     "crashes": 4,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }
