@@ -9,3 +9,4 @@
 - [Análise de Rede Social](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/7.AnaliseRedeSocial)
 - [Análise de Texto](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/8.AnaliseTexto)
 - [Análise de Sentimentos - Filmes](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/9.AnaliseSentimentos)
+- [Análise de Locação de Veículos](https://github.com/deborabastos/ML_knime_studies/tree/main/Projetos/10.AnaliseLocacaoVeiculos)
