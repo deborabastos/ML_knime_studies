@@ -3684,3 +3684,193 @@ org.eclipse.swt.SWTException: Invalid thread access
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-02-09 20:58:04,915 : WARN  : main :  : Node : File Reader : 4:1 : Please specify a file
+2023-02-09 20:59:32,241 : WARN  : main :  : Node : Excel Reader : 4:2 : Please specify a file
+2023-02-09 20:59:58,098 : WARN  : main :  : Node : Excel Reader : 4:2 : The node configuration changed and the table spec will be recalculated during execution.
+2023-02-09 21:01:46,458 : WARN  : KNIME-Worker-17-Data Explorer 4:3 :  : Node : Data Explorer : 4:3 : The following columns have non-generic type and will be excluded from  calculation: 
+[data_inicio_locacao]
+2023-02-09 21:03:16,266 : WARN  : main :  : Node : Excel Reader : 3:1 : Please specify a file
+2023-02-09 21:03:32,569 : WARN  : main :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2023-02-09 21:03:48,991 : WARN  : KNIME-Worker-8-Data Explorer 3:2 :  : Node : Data Explorer : 3:2 : The following columns have non-generic type and will be excluded from  calculation: 
+[data_inicio_locacao]
+2023-02-09 21:05:06,165 : WARN  : main :  : Node : Excel Reader : 3:1 : Please specify a file
+2023-02-09 21:05:25,876 : WARN  : main :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2023-02-09 21:05:38,617 : WARN  : KNIME-Worker-6-Data Explorer 3:2 :  : Node : Data Explorer : 3:2 : The following columns have non-generic type and will be excluded from  calculation: 
+[data_inicio_locacao]
+2023-02-09 21:06:36,809 : WARN  : main :  : Node : Excel Reader : 3:1 : Please specify a file
+2023-02-09 21:06:58,065 : WARN  : main :  : Node : Excel Reader : 3:1 : The node configuration changed and the table spec will be recalculated during execution.
+2023-02-09 21:07:10,006 : WARN  : KNIME-Worker-10-Data Explorer 3:2 :  : Node : Data Explorer : 3:2 : The following columns have non-generic type and will be excluded from  calculation: 
+[data_inicio_locacao]
+2023-02-09 21:14:07,792 : WARN  : main :  : Node : Row Filter : 3:3 : No row filter specified
+2023-02-09 21:22:54,736 : WARN  : main :  : Node : Column Splitter : 3:5 : No settings available, passing all columns to top output port.
+2023-02-09 21:22:54,738 : WARN  : main :  : Node : Column Splitter : 3:5 : All columns in top partition.
+2023-02-09 21:25:03,380 : WARN  : main :  : Node : Joiner : 3:7 : No join columns passed.
+2023-02-09 21:34:15,103 : WARN  : main :  : Node : Column Splitter : 3:9 : No settings available, passing all columns to top output port.
+2023-02-09 21:34:15,104 : WARN  : main :  : Node : Column Splitter : 3:9 : All columns in top partition.
+2023-02-09 21:34:23,711 : WARN  : main :  : Node : Column Splitter : 3:9 : All columns in top partition.
+2023-02-09 21:35:23,062 : WARN  : main :  : Node : Rule Engine : 3:10 : Line: 5: Not a column: ar_condicionado
+NOT (MISSING $ar_condicionado$) => $ar_condicionado$
+             ^
+2023-02-09 21:39:43,138 : WARN  : main :  : Node : Joiner : 3:11 : No join columns passed.
+2023-02-09 21:45:03,831 : WARN  : main :  : Node : Cell Replacer : 3:13 : No targetCol column selected
+2023-02-09 21:46:16,139 : WARN  : main :  : Node : Excel Writer : 3:14 : Please specify a file
+2023-02-09 21:46:38,511 : ERROR : AWT-EventQueue-0 :  : ExcelTableWriterNodeDialog : Excel Writer : 3:14 : Could not get sheet names!
+java.io.IOException: Is a directory
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.read(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.read(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.read(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.read(Unknown Source)
+	at org.knime.filehandling.core.connections.FSSeekableByteChannel.read(FSSeekableByteChannel.java:97)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.fill(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:420)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:399)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:79)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:192)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:143)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeDialog$SheetUpdater.readXLSXSheets(ExcelTableWriterNodeDialog.java:525)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeDialog$SheetUpdater.doInBackgroundWithContext(ExcelTableWriterNodeDialog.java:516)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeDialog$SheetUpdater.doInBackgroundWithContext(ExcelTableWriterNodeDialog.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-02-09 21:49:48,967 : WARN  : ModalContext :  : ColumnarPreferenceUtils : Python Script : 4:11:0:449 : Column Data Cache is configured to be of size 3584 MB, but only 3552 MB of memory are available.
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: 6.AnaliseSerieTemporal 4 loaded with errors
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: 6.AnaliseSerieTemporal 4
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Inspect Seasonality 4:11
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Decompose Signal 4:12
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Inspect Seasonality 4:12:0:436
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Inspect Seasonality 4:12:0:430
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Inspect Seasonality 4:12:0:431
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Inspect Seasonality 4:12:0:432
+2023-02-09 21:49:49,475 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: ARIMA Predictor 4:19
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Empty Table Creator" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Analyze ARIMA Residuals 4:20
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Counter Generation" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Counter Generation" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2023-02-09 21:49:49,476 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2023-02-09 21:50:34,988 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: 3.AnaliseDiagnostica 5 loaded with errors
+2023-02-09 21:50:34,988 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: 3.AnaliseDiagnostica 5
+2023-02-09 21:50:34,988 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Shapiro-Wilk Test" not available from extension "KNIME Statistics Nodes (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.stats2" is not installed)
+2023-02-09 21:54:34,166 : WARN  : main :  : Node : Linear Correlation : 3:16 : Auto configuration: Using all suitable columns (in total 12)
+2023-02-09 22:05:13,800 : WARN  : main :  : Node : Excel Reader : 3:19 : Please specify a file
+2023-02-09 22:05:50,155 : WARN  : main :  : Node : Excel Reader : 3:19 : The node configuration changed and the table spec will be recalculated during execution.
+2023-02-09 22:05:52,548 : WARN  : main :  : Node : Excel Reader : 3:20 : Please specify a file
+2023-02-09 22:06:16,810 : WARN  : main :  : Node : Excel Reader : 3:20 : The node configuration changed and the table spec will be recalculated during execution.
+2023-02-09 22:07:46,486 : WARN  : main :  : Node : Regression Predictor : 3:22 : The table for prediction does not contain the column "qtde_portas".
+2023-02-09 22:08:45,291 : WARN  : main :  : Node : Regression Predictor : 3:22 : The table for prediction does not contain the column "qtde_portas".
+2023-02-09 22:09:26,880 : WARN  : main :  : Node : Regression Predictor : 3:22 : The table for prediction does not contain the column "qtde_portas".
+2023-02-09 22:10:54,691 : WARN  : main :  : Node : Numeric Scorer : 3:23 : No columns selected for reference
+2023-02-09 22:11:30,633 : WARN  : main :  : Node : Numeric Scorer : 3:23 : No columns selected for reference
+2023-02-09 22:11:35,898 : WARN  : KNIME-Worker-75-Regression Predictor 3:22 :  : Node : Numeric Scorer : 3:23 : No columns selected for reference
+2023-02-09 22:12:45,293 : WARN  : main :  : Node : Regression Predictor : 3:24 : The table for prediction does not contain the column "valor_total_locacao (rounded)".
+2023-02-09 22:12:48,409 : WARN  : main :  : Node : Regression Predictor : 3:24 : The table for prediction does not contain the column "valor_total_locacao (rounded)".
+2023-02-09 22:13:44,214 : WARN  : main :  : Node : Regression Predictor : 3:24 : The table for prediction does not contain the column "valor_total_locacao (rounded)".
+2023-02-09 22:14:09,077 : WARN  : main :  : Node : Regression Predictor : 3:24 : The table for prediction does not contain the column "valor_total_locacao (rounded)".
+2023-02-09 22:14:55,355 : WARN  : main :  : Node : Linear Regression Learner : 3:18 : The target is not in the input.
+2023-02-09 22:14:59,940 : WARN  : KNIME-Worker-91-Round Double 3:8 :  : Node : Linear Regression Learner : 3:18 : The target is not in the input.
+2023-02-09 22:14:59,945 : WARN  : KNIME-Worker-93-Rule Engine 3:10 :  : Node : Linear Regression Learner : 3:18 : The target is not in the input.
+2023-02-09 22:14:59,949 : WARN  : KNIME-Worker-95-Cell Replacer 3:13 :  : Node : Linear Regression Learner : 3:18 : The target is not in the input.
+2023-02-09 22:15:02,302 : ERROR : KNIME-Worker-96-Excel Writer 3:14 :  : Node : Excel Writer : 3:14 : Execute failed: The workbook already contains a sheet named 'dados_limpos'
+java.lang.IllegalArgumentException: The workbook already contains a sheet named 'dados_limpos'
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetName(XSSFWorkbook.java:906)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.createSheet(XSSFWorkbook.java:859)
+	at org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet(SXSSFWorkbook.java:705)
+	at org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet(SXSSFWorkbook.java:88)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.getOrCreateSheet(AbstractExcelTableWriter.java:235)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.getSheet(AbstractExcelTableWriter.java:184)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.writeTable(AbstractExcelTableWriter.java:101)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.ExcelMultiTableWriter.writeTables(ExcelMultiTableWriter.java:106)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.write(ExcelTableWriterNodeModel.java:194)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.execute(ExcelTableWriterNodeModel.java:159)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-02-09 22:15:35,413 : ERROR : KNIME-Worker-94-Excel Writer 3:14 :  : Node : Excel Writer : 3:14 : Execute failed: The workbook already contains a sheet named 'dados_limpos'
+java.lang.IllegalArgumentException: The workbook already contains a sheet named 'dados_limpos'
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetName(XSSFWorkbook.java:906)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.createSheet(XSSFWorkbook.java:859)
+	at org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet(SXSSFWorkbook.java:705)
+	at org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet(SXSSFWorkbook.java:88)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.getOrCreateSheet(AbstractExcelTableWriter.java:235)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.getSheet(AbstractExcelTableWriter.java:184)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.writeTable(AbstractExcelTableWriter.java:101)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.ExcelMultiTableWriter.writeTables(ExcelMultiTableWriter.java:106)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.write(ExcelTableWriterNodeModel.java:194)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.execute(ExcelTableWriterNodeModel.java:159)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-02-09 22:15:42,429 : ERROR : KNIME-Worker-95-Excel Writer 3:14 :  : Node : Excel Writer : 3:14 : Execute failed: The workbook already contains a sheet named 'dados_limpos'
+java.lang.IllegalArgumentException: The workbook already contains a sheet named 'dados_limpos'
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetName(XSSFWorkbook.java:906)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.createSheet(XSSFWorkbook.java:859)
+	at org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet(SXSSFWorkbook.java:705)
+	at org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet(SXSSFWorkbook.java:88)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.getOrCreateSheet(AbstractExcelTableWriter.java:235)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.getSheet(AbstractExcelTableWriter.java:184)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.AbstractExcelTableWriter.writeTable(AbstractExcelTableWriter.java:101)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.table.ExcelMultiTableWriter.writeTables(ExcelMultiTableWriter.java:106)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.write(ExcelTableWriterNodeModel.java:194)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.execute(ExcelTableWriterNodeModel.java:159)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2023-02-09 22:16:14,302 : WARN  : main :  : Node : Excel Reader : 3:19 : The node configuration changed and the table spec will be recalculated during execution.
+2023-02-09 22:16:16,726 : WARN  : KNIME-Worker-97-Excel Reader 3:19 :  : Node : Numeric Scorer : 3:25 : No such column in input table: Prediction (valor_total_locacao)
+2023-02-09 22:16:34,664 : WARN  : KNIME-Worker-97-Regression Predictor 3:24 :  : Node : Numeric Scorer : 3:25 : No such column in input table: Prediction (valor_total_locacao)
+2023-02-09 22:19:14,043 : WARN  : main :  : Node : RowID : 3:26 : No row key column selected generate a new one
+2023-02-09 22:19:57,994 : WARN  : main :  : Node : RowID : 3:26 : No row key column selected generate a new one
+2023-02-09 22:20:43,227 : WARN  : main :  : Node : Math Formula : 3:27 : No configuration available
+2023-02-09 22:22:18,344 : WARN  : main :  : Node : Linear Correlation : 3:29 : Auto configuration: Using all suitable columns (in total 11)

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="boxPlotInternals">
+    <entry key="numberOf" type="xint" value="6"/>
+    <config key="colSpec0">
+        <entry key="column_name" type="xstring" value="idade_locatario"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="18.0"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="35.0"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec1">
+        <entry key="column_name" type="xstring" value="quilometragem"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="351.55"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="957.44"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec2">
+        <entry key="column_name" type="xstring" value="qtde_diarias"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="1.0"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="5.0"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec3">
+        <entry key="column_name" type="xstring" value="valor_total_locacao"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="333.74"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="551.32"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec4">
+        <entry key="column_name" type="xstring" value="cotacao_dolar"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="1.61"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="9.91"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="colSpec5">
+        <entry key="column_name" type="xstring" value="valor_diaria"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="83.44"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="384.0"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="statsidade_locatario">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="18.0"/>
+        <entry key="1" type="xdouble" value="18.0"/>
+        <entry key="2" type="xdouble" value="18.0"/>
+        <entry key="3" type="xdouble" value="21.0"/>
+        <entry key="4" type="xdouble" value="25.0"/>
+        <entry key="5" type="xdouble" value="35.0"/>
+        <entry key="6" type="xdouble" value="35.0"/>
+    </config>
+    <config key="mildrowidade_locatario"/>
+    <config key="mildidade_locatario">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremerowidade_locatario"/>
+    <config key="extremeidade_locatario">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statsquilometragem">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="351.55"/>
+        <entry key="1" type="xdouble" value="351.55"/>
+        <entry key="2" type="xdouble" value="554.7"/>
+        <entry key="3" type="xdouble" value="829.53"/>
+        <entry key="4" type="xdouble" value="930.7"/>
+        <entry key="5" type="xdouble" value="957.44"/>
+        <entry key="6" type="xdouble" value="957.44"/>
+    </config>
+    <config key="mildrowquilometragem"/>
+    <config key="mildquilometragem">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremerowquilometragem"/>
+    <config key="extremequilometragem">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statsqtde_diarias">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="1.0"/>
+        <entry key="1" type="xdouble" value="1.0"/>
+        <entry key="2" type="xdouble" value="2.0"/>
+        <entry key="3" type="xdouble" value="3.0"/>
+        <entry key="4" type="xdouble" value="4.0"/>
+        <entry key="5" type="xdouble" value="5.0"/>
+        <entry key="6" type="xdouble" value="5.0"/>
+    </config>
+    <config key="mildrowqtde_diarias"/>
+    <config key="mildqtde_diarias">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremerowqtde_diarias"/>
+    <config key="extremeqtde_diarias">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statsvalor_total_locacao">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="333.74"/>
+        <entry key="1" type="xdouble" value="339.55"/>
+        <entry key="2" type="xdouble" value="414.73"/>
+        <entry key="3" type="xdouble" value="446.85"/>
+        <entry key="4" type="xdouble" value="467.6"/>
+        <entry key="5" type="xdouble" value="515.96"/>
+        <entry key="6" type="xdouble" value="551.32"/>
+    </config>
+    <config key="mildrowvalor_total_locacao">
+        <config key="mildrowvalor_total_locacao0">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row78"/>
+        </config>
+        <config key="mildrowvalor_total_locacao1">
+            <entry key="array-size" type="xint" value="5"/>
+            <entry key="0" type="xstring" value="Row62"/>
+            <entry key="1" type="xstring" value="Row83"/>
+            <entry key="2" type="xstring" value="Row20"/>
+            <entry key="3" type="xstring" value="Row42"/>
+            <entry key="4" type="xstring" value="Row108"/>
+        </config>
+    </config>
+    <config key="mildvalor_total_locacao">
+        <entry key="array-size" type="xint" value="2"/>
+        <entry key="0" type="xdouble" value="333.74"/>
+        <entry key="1" type="xdouble" value="551.32"/>
+    </config>
+    <config key="extremerowvalor_total_locacao"/>
+    <config key="extremevalor_total_locacao">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statscotacao_dolar">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="1.61"/>
+        <entry key="1" type="xdouble" value="1.61"/>
+        <entry key="2" type="xdouble" value="4.26"/>
+        <entry key="3" type="xdouble" value="4.72"/>
+        <entry key="4" type="xdouble" value="6.93"/>
+        <entry key="5" type="xdouble" value="9.91"/>
+        <entry key="6" type="xdouble" value="9.91"/>
+    </config>
+    <config key="mildrowcotacao_dolar"/>
+    <config key="mildcotacao_dolar">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="extremerowcotacao_dolar"/>
+    <config key="extremecotacao_dolar">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="statsvalor_diaria">
+        <entry key="array-size" type="xint" value="7"/>
+        <entry key="0" type="xdouble" value="83.44"/>
+        <entry key="1" type="xdouble" value="83.44"/>
+        <entry key="2" type="xdouble" value="113.18"/>
+        <entry key="3" type="xdouble" value="148.95"/>
+        <entry key="4" type="xdouble" value="186.38"/>
+        <entry key="5" type="xdouble" value="275.66"/>
+        <entry key="6" type="xdouble" value="384.0"/>
+    </config>
+    <config key="mildrowvalor_diaria">
+        <config key="mildrowvalor_diaria0">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="Row118"/>
+        </config>
+    </config>
+    <config key="mildvalor_diaria">
+        <entry key="array-size" type="xint" value="1"/>
+        <entry key="0" type="xdouble" value="384.0"/>
+    </config>
+    <config key="extremerowvalor_diaria"/>
+    <config key="extremevalor_diaria">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+</config>
